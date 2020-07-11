@@ -40,6 +40,10 @@ fi
 
 if [ $option == "--add" ]
 then
+	# Generate region data
+	python3 gendata.py
+
+
 	# Add parser
 	cp out/*.py ../data/parsers/ 
 	# Add sources
@@ -70,7 +74,6 @@ then
 	python3 generate_data.py --fetch --parsers CoastalBend
 	python3 generate_data.py \
 		--output-cases ../src/assets/data/caseCounts.json \
-		--output-population ../src/assets/data/population.json \
 		--output-scenarios ../src/assets/data/scenarios.json
 fi
 
@@ -117,17 +120,6 @@ then
 	sed -i 's/County_Name/Name/' texas_fatalities.csv
 	sed -i 's/Andrews/\nAndrews/' texas_fatalities.csv
 	sed -i 's/\//-/g' texas_fatalities.csv
-
-
-	# Update locally
-	# Age distribution
-	mapfile -t -s 1 agepop < <(awk '{print $2}' coastalBend_popByAge.tsv)
-	echo {\"name\": \"CoastalBend\", \"data\": [{ \"ageGroup\": \"0-9\", \"population\": "${agepop[1]}" }, { \"ageGroup\": \"10-19\", \"population\": "${agepop[1]}" }, { \"ageGroup\": \"20-29\", \"population\": "${agepop[2]}" }, { \"ageGroup\": \"30-39\", \"population\": "${agepop[3]}" }, { \"ageGroup\": \"40-49\", \"population\": "${agepop[4]}" }, { \"ageGroup\": \"50-59\", \"population\": "${agepop[5]}" }, { \"ageGroup\": \"60-69\", \"population\": "${agepop[6]}" }, { \"ageGroup\": \"70-79\", \"population\": "${agepop[7]}" }, { \"ageGroup\": \"80+\", \"population\": "${agepop[8]}" } ]} > ageDistribution.json.cb
-
-	mapfile -t -s 1 agepop < <(awk '{print $2}' coastalBend_popByAge.tsv)
-	populationSize=$(IFS=+; echo "$((${agepop[*]}))")
-	echo "CoastalBend	${populationSize}	CoastalBend	357	30	Northern	None	None	None" > populationData.tsv.cb
-
 fi
 
 if [ $option == "--patch" ]
@@ -143,8 +135,4 @@ then
 	cd ../data
 	mv case-counts/ case-counts-disabled/
 	mkdir case-counts
-	mv parsers/ parsers-disabled/
-	mkdir parsers
-	cp parsers-disables/utils.py  parsers/
-
 fi
