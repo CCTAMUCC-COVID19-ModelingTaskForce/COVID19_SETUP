@@ -1,0 +1,219 @@
+{
+ "ageDistributionData": {
+  "data": [
+   {
+    "ageGroup": "0-9",
+    "population": 83131
+   },
+   {
+    "ageGroup": "10-19",
+    "population": 81587
+   },
+   {
+    "ageGroup": "20-29",
+    "population": 89365
+   },
+   {
+    "ageGroup": "30-39",
+    "population": 79988
+   },
+   {
+    "ageGroup": "40-49",
+    "population": 67639
+   },
+   {
+    "ageGroup": "50-59",
+    "population": 69304
+   },
+   {
+    "ageGroup": "60-69",
+    "population": 63417
+   },
+   {
+    "ageGroup": "70-79",
+    "population": 39855
+   },
+   {
+    "ageGroup": "80+",
+    "population": 21584
+   }
+  ],
+  "name": "CoastalBend"
+ },
+ "severityDistributionData": {
+  "data": [
+   {
+    "ageGroup": "0-9",
+    "confirmed": 5,
+    "critical": 5,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 1
+   },
+   {
+    "ageGroup": "10-19",
+    "confirmed": 5,
+    "critical": 10,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 3
+   },
+   {
+    "ageGroup": "20-29",
+    "confirmed": 10,
+    "critical": 10,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 3
+   },
+   {
+    "ageGroup": "30-39",
+    "confirmed": 15,
+    "critical": 15,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 3
+   },
+   {
+    "ageGroup": "40-49",
+    "confirmed": 20,
+    "critical": 20,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 6
+   },
+   {
+    "ageGroup": "50-59",
+    "confirmed": 25,
+    "critical": 25,
+    "fatal": 40,
+    "isolated": 0,
+    "severe": 10
+   },
+   {
+    "ageGroup": "60-69",
+    "confirmed": 30,
+    "critical": 35,
+    "fatal": 40,
+    "isolated": 0,
+    "severe": 25
+   },
+   {
+    "ageGroup": "70-79",
+    "confirmed": 40,
+    "critical": 45,
+    "fatal": 50,
+    "isolated": 0,
+    "severe": 35
+   },
+   {
+    "ageGroup": "80+",
+    "confirmed": 50,
+    "critical": 55,
+    "fatal": 50,
+    "isolated": 0,
+    "severe": 50
+   }
+  ],
+  "name": "CoastalBend"
+ },
+ "scenarioData": {
+  "data": {
+   "epidemiological": {
+    "hospitalStayDays": 9.0,
+    "icuStayDays": 10.0,
+    "infectiousPeriodDays": 3.5,
+    "latencyDays": 4.0,
+    "overflowSeverity": 1.0,
+    "peakMonth": 1,
+    "seasonalForcing": 0.0,
+    "r0": {
+     "begin": 2.5,
+     "end": 3.7
+    }
+   },
+   "mitigation": {
+    "mitigationIntervals": [
+     {
+      "color": "#bf5b17",
+      "name": "School Closure",
+      "transmissionReduction": {
+       "begin": 1.2942388999999999,
+       "end": 46.9591112
+      },
+      "timeRange": {
+       "begin": "2020-03-19T00:00:00.000Z",
+       "end": "2020-08-31T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Social Distancing",
+      "transmissionReduction": {
+       "begin": 0.0,
+       "end": 24.476005999999998
+      },
+      "timeRange": {
+       "begin": "2020-03-19T00:00:00.000Z",
+       "end": "2020-08-31T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Stay-at-Home",
+      "transmissionReduction": {
+       "begin": 1.3056923999999999,
+       "end": 88.1456878
+      },
+      "timeRange": {
+       "begin": "2020-03-28T00:00:00.000Z",
+       "end": "2020-04-30T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Public Events",
+      "transmissionReduction": {
+       "begin": 0.0343603,
+       "end": 26.159661
+      },
+      "timeRange": {
+       "begin": "2020-03-28T00:00:00.000Z",
+       "end": "2020-04-30T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Self Isolation",
+      "transmissionReduction": {
+       "begin": 0.0,
+       "end": 16.4013286
+      },
+      "timeRange": {
+       "begin": "2020-03-19T00:00:00.000Z",
+       "end": "2020-08-31T00:00:00.000Z"
+      }
+     }
+    ]
+   },
+   "population": {
+    "ageDistributionName": "CoastalBend",
+    "caseCountsName": "CoastalBend",
+    "hospitalBeds": 357,
+    "icuBeds": 30,
+    "importsPerDay": 0.1,
+    "initialNumberOfCases": 12,
+    "populationServed": 595870
+   },
+   "simulation": {
+    "numberStochasticRuns": 10,
+    "simulationTimeRange": {
+     "begin": "2020-03-07T00:00:00.000Z",
+     "end": "2020-08-31T00:00:00.000Z"
+    }
+   }
+  },
+  "name": "CoastalBend"
+ },
+ "schemaVer": "2.0.0"
+}

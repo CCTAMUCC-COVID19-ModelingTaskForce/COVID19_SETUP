@@ -1,0 +1,20 @@
+parameter	meanVal	distribution	stdev	upper	lower
+Scenario	CoastalBend	na	na	na	na
+Age distribution	CoastalBend	na	na	na	na
+Population size	595870	na	na	na	na
+Initial number of cases	12	na	na	na	na
+Imports per day	0.1	na	na	na	na
+Hospital beds available	357	na	na	na	na
+ICU beds available	30	na	na	na	na
+Confirmed cases	CoastalBend	na	na	na	na
+Simulation start date	3/7/2020	na	na	na	na
+Simulation end date	9/1/2020	na	na	na	na
+Number of Runs	10	na	na	na	na
+Ro	3	even	na	3.7	2.5
+Latency	4	normal	0.5	5.1	3
+Infectious period	3.5	normal	0.5	5.5	1.4
+Seasonal forcing	0	na	na	na	na
+Seasonal peak	January	na	na	na	na
+Days in hospital	9	normal	0.5	na	na
+Days in icu	10	normal	0.5	na	na
+Severity of ICU overflow	1	na	na	na	na

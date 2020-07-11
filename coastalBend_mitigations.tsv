@@ -1,0 +1,11 @@
+Intervention	InterventionOrder	Dist	MeanRelativePropReduction	Stdev	LowerTransmissionReduction	UpperTransmissionReduction	DateBegin	DateEnd
+School Closure	First	Even	29.81262169		26.2925209	33.33272248	3/20/2020	9/1/2020
+Self Isolation	Later	Even	8.446798762		6.317718474	10.57587905	3/20/2020	9/1/2020
+Social Distancing	Later	Even	12.63807124		9.476577712	15.79956477	3/20/2020	4/9/2020
+Stay-at-Home	Later	Even	65.87802085		64.16218074	67.59386096	3/29/2020	4/9/2020
+Public Events	Later	Even	13.65582408		10.3447486	16.96689955	3/29/2020	4/9/2020
+Social Distancing	Later	Even	5.019356317		4.332149811	5.706562822	4/9/2020	9/1/2020
+Stay-at-Home	Later	Even	36.86336044		30.04008705	43.68663383	4/9/2020	4/28/2020
+Public Events	Later	Even	5.510479899		4.747680678	6.27327912	4/9/2020	4/28/2020
+Stay-at-Home	Later	Even	13.13917077		3.101592028	23.17674951	4/28/2020	9/1/2020
+X-factor	Later	Even	46.9		46.9	46.9	5/2/2020	5/22/2020
