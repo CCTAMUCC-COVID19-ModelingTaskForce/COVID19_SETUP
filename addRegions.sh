@@ -20,7 +20,7 @@ then
 	cp ../src/assets/data/scenarios.json backup/scenarios.json.orig
 	# Remove other countries
 	mv ../data/case-counts/ backup/case-counts
-	mkdir ../case-counts
+	mkdir ../data/case-counts
 	mv ../data/parsers/ backup/parsers
 	mkdir ../data/parsers/
 	cp backup/parsers/utils.py backup/parsers/__init__.py ../data/parsers/
@@ -50,6 +50,7 @@ fi
 
 if [ $option == "--add" ]
 then
+	mkdir out
 	# Generate region data
 	python3 gendata.py
 
@@ -89,6 +90,7 @@ fi
 if [ $option == "--update" ]
 then
 	# Update the contents of CoastalBend .cb files
+	mkdir out
 
 	# Pull data from web
 	# Cases
@@ -142,6 +144,4 @@ then
  
 	# Change default scenario (so the app will load after removing existing countries)
 	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'CoastalBend' as const/" ../src/constants.ts
-	
-
 fi
