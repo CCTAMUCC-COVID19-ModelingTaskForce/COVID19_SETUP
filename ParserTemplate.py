@@ -32,8 +32,8 @@ cols = ['time', 'cases', 'deaths', 'hospitalized', 'icu', 'recovered']
 # Main point of entry
 def parse():
     # Access files
-    dfCasesFile = "../COVID19_SETUP/texas_cases.csv"
-    dfDeathsFile = "../COVID19_SETUP/texas_fatalities.csv"
+    dfCasesFile = "../COVID19_SETUP/out/texas_cases.csv"
+    dfDeathsFile = "../COVID19_SETUP/out/texas_fatalities.csv"
     #dfRecoveredFile = "../COVID19_CoastalBend/coastalBend_caseCounts.csv.3"
 
     # Init output data

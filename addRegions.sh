@@ -6,18 +6,24 @@ option=$1
 # Backup repo (for later restore)
 if [ $option == "--backup" ]
 then
+	mkdir backup
 	# Data sources
-	cp ../data/sources.json sources.json.orig
-	cp ../data/country_codes.csv country_codes.csv.orig
-	cp ../data/populationData.tsv populationData.tsv.orig
-	cp ../data/hospital-data/hospital_capacity.csv hospital_capacity.csv.orig
-	cp ../data/hospital-data/ICU_capacity.tsv ICU_capacity.tsv.orig
-	#### cp ../data/initialCondition.tsv initialCondition.tsv.orig    # Autopopulated?
+	cp ../data/sources.json backup/sources.json.orig
+	cp ../data/country_codes.csv backup/country_codes.csv.orig
+	cp ../data/populationData.tsv backup/populationData.tsv.orig
+	cp ../data/hospital-data/hospital_capacity.csv backup/hospital_capacity.csv.orig
+	cp ../data/hospital-data/ICU_capacity.tsv backup/ICU_capacity.tsv.orig
 	# Data assets
-	cp ../src/assets/data/caseCounts.json caseCounts.json.orig
-	cp ../src/assets/data/ageDistribution.json ageDistribution.json.orig
-	cp ../src/assets/data/severityDistributions.json severityDistributions.json.orig
-	cp ../src/assets/data/scenarios.json scenarios.json.orig
+	cp ../src/assets/data/caseCounts.json backup/caseCounts.json.orig
+	cp ../src/assets/data/ageDistribution.json backup/ageDistribution.json.orig
+	cp ../src/assets/data/severityDistributions.json backup/severityDistributions.json.orig
+	cp ../src/assets/data/scenarios.json backup/scenarios.json.orig
+	# Remove other countries
+	mv ../data/case-counts/ backup/case-counts
+	mkdir ../case-counts
+	mv ../data/parsers/ backup/parsers
+	mkdir ../data/parsers/
+	cp backup/parsers/utils.py backup/parsers/__init__.py ../data/parsers/
 fi
 
 # Clean repo (remove coastal bend scenario)
@@ -25,17 +31,21 @@ if [ $option == "--restore" ]
 then
 	# Data sources
 	rm ../data/parsers/CoastalBend.py
-	cp sources.json.orig ../data/sources.json
+	cp backup/sources.json.orig ../data/sources.json
 	cp country_codes.csv.orig ../data/country_codes.csv
 	cp populationData.tsv.orig ../data/populationData.tsv 
 	cp hospital_capacity.csv.orig ../data/hospital-data/hospital_capacity.csv
 	cp ICU_capacity.tsv.orig ../data/hospital-data/ICU_capacity.tsv
-	#### cp initialCondition.tsv.orig ../data/initialCondition.tsv   # Autopopulated?
 	# Data assets
 	cp caseCounts.json.orig ../src/assets/data/caseCounts.json
 	cp ageDistribution.json.orig ../src/assets/data/ageDistribution.json
 	cp severityDistributions.json.orig ../src/assets/data/severityDistributions.json
 	cp scenarios.json.orig  ../src/assets/data/scenarios.json
+	# Restore other countries
+	rm -rf ../data/case-counts/
+	mv backup/case-counts/ ../data/case-counts/
+	rm -rf ../data/parsers/
+	mv backup/parsers/ ../data/parsers/
 fi
 
 if [ $option == "--add" ]
@@ -48,16 +58,16 @@ then
 	# Add sources
 	cp out/sources.json.cb ../data/sources.json
 	# Add county codes
-	cat out/country_codes.csv.cb >> ../data/country_codes.csv
+	cp out/country_codes.csv.cb ../data/country_codes.csv
 	# Add population data
-	cat out/populationData.tsv.cb >> ../data/populationData.tsv
+	cp out/populationData.tsv.cb ../data/populationData.tsv
 
 	# Add age distribution
-	head -n -3 ../src/assets/data/ageDistribution.json > ageDistribution.temp
-	echo "}," >> ageDistribution.temp
-	cat out/ageDistribution.json.cb >> ageDistribution.temp
-	echo "] }" >> ageDistribution.temp
-	cp ageDistribution.temp ../src/assets/data/ageDistribution.json
+	head -n -3 ../src/assets/data/ageDistribution.json > out/ageDistribution.temp
+	echo "}," >> out/ageDistribution.temp
+	cat out/ageDistribution.json.cb >> out/ageDistribution.temp
+	echo "] }" >> out/ageDistribution.temp
+	cp out/ageDistribution.temp ../src/assets/data/ageDistribution.json
 
 	# Add Hospital capacity 
 	#cat hospital_capacity.csv.cb >> ../data/hospital-data/hospital_capacity.csv
@@ -65,6 +75,8 @@ then
 	#cat ICU_capacity.tsv.cb >> ../data/hospital-data/ICU_capacity.tsv
 	##### Add initial conditions  <---- perhaps not. Autopopulated?
 	####cat initialCondition.tsv.cb >> ../data/initialCondition.tsv
+
+	exit 0
 
 	# Generate asset data
 	cd ../data/
@@ -81,42 +93,42 @@ then
 	# Pull data from web
 	# Cases
 	wget --no-check-certificate \
-	       	https://dshs.texas.gov/coronavirus/TexasCOVID19DailyCountyCaseCountData.xlsx -O texas_cases.xlsx
-	ssconvert texas_cases.xlsx texas_cases.temp.csv
-	sed -i 1,2d texas_cases.temp.csv
-	sed -i 's/County Name/Name/' texas_cases.temp.csv
-	perl -pe 'chomp if /Cases/' texas_cases.temp.csv | \
+	       	https://dshs.texas.gov/coronavirus/TexasCOVID19DailyCountyCaseCountData.xlsx -O out/texas_cases.xlsx
+	ssconvert out/texas_cases.xlsx out/texas_cases.temp.csv
+	sed -i 1,2d out/texas_cases.temp.csv
+	sed -i 's/County Name/Name/' out/texas_cases.temp.csv
+	perl -pe 'chomp if /Cases/' out/texas_cases.temp.csv | \
 	       perl -pe 'chomp if /Cases/' | \
-	      sed -e 's/Anderson/\nAnderson/'  > texas_cases.csv
-	sed -i 's/"//g' texas_cases.csv
-	sed -i '1,/,,,,,,,,,/!d' texas_cases.csv
-	sed -i '$ d' texas_cases.csv
-	sed -i '$ d' texas_cases.csv
-	sed -i -e 's/_x000D_//g' -e 's/ //g' texas_cases.csv 
-	sed -i 's/Andrews/\nAndrews/' texas_cases.csv
-	sed -i -e "s/\r//g" texas_cases.csv
+	      sed -e 's/Anderson/\nAnderson/'  > out/texas_cases.csv
+	sed -i 's/"//g' out/texas_cases.csv
+	sed -i '1,/,,,,,,,,,/!d' out/texas_cases.csv
+	sed -i '$ d' out/texas_cases.csv
+	sed -i '$ d' out/texas_cases.csv
+	sed -i -e 's/_x000D_//g' -e 's/ //g' out/texas_cases.csv 
+	sed -i 's/Andrews/\nAndrews/' out/texas_cases.csv
+	sed -i -e "s/\r//g" out/texas_cases.csv
 
 	# Fatalities
 	wget --no-check-certificate \
-		https://dshs.texas.gov/coronavirus/TexasCOVID19DailyCountyFatalityCountData.xlsx -O texas_fatalities.xlsx
-	ssconvert texas_fatalities.xlsx texas_fatalities.temp.csv
-	sed -i 1,2d texas_fatalities.temp.csv
-	sed -i 's/Fatalitites/Fatalities/g' texas_fatalities.temp.csv
-	perl -pe 'chomp if /Fatalities/' texas_fatalities.temp.csv | \
+		https://dshs.texas.gov/coronavirus/TexasCOVID19DailyCountyFatalityCountData.xlsx -O out/texas_fatalities.xlsx
+	ssconvert out/texas_fatalities.xlsx out/texas_fatalities.temp.csv
+	sed -i 1,2d out/texas_fatalities.temp.csv
+	sed -i 's/Fatalitites/Fatalities/g' out/texas_fatalities.temp.csv
+	perl -pe 'chomp if /Fatalities/' out/texas_fatalities.temp.csv | \
 		perl -pe 'chomp if /Fatalities/' | \
-	       sed -e 's/Anderson/\nAnderson/'	> texas_fatalities.csv
-	sed -i 's/"//g' texas_fatalities.csv
-	sed -i -n '/Total,/q;p' texas_fatalities.csv
-	sed -i 's/ \+/_/g' texas_fatalities.csv
+	       sed -e 's/Anderson/\nAnderson/'	> out/texas_fatalities.csv
+	sed -i 's/"//g' out/texas_fatalities.csv
+	sed -i -n '/Total,/q;p' out/texas_fatalities.csv
+	sed -i 's/ \+/_/g' out/texas_fatalities.csv
 	#sed -i 1d texas_fatalities.csv
-	sed -i 's/2020\//Fatalities/g' texas_fatalities.csv
+	sed -i 's/2020\//Fatalities/g' out/texas_fatalities.csv
 	#sed -i '/^$/d' texas_fatalities.csv
 	#sed -i 's/\//-/g' texas_fatalities.csv
-	sed -i 's/Fatalities_/Fatalities0/g' texas_fatalities.csv
-	sed -i 's/Fatalities00/Fatalities0/g' texas_fatalities.csv
-	sed -i 's/County_Name/Name/' texas_fatalities.csv
-	sed -i 's/Andrews/\nAndrews/' texas_fatalities.csv
-	sed -i 's/\//-/g' texas_fatalities.csv
+	sed -i 's/Fatalities_/Fatalities0/g' out/texas_fatalities.csv
+	sed -i 's/Fatalities00/Fatalities0/g' out/texas_fatalities.csv
+	sed -i 's/County_Name/Name/' out/texas_fatalities.csv
+	sed -i 's/Andrews/\nAndrews/' out/texas_fatalities.csv
+	sed -i 's/\//-/g' out/texas_fatalities.csv
 fi
 
 if [ $option == "--patch" ]
@@ -127,12 +139,9 @@ then
 	sed -i 's/minimum: 10/minimum: 1/' ../schemas/ScenarioDatumSimulation.yml
 	sed -i 's/maximum: 100/maximum: 100001/' ../schemas/ScenarioDatumSimulation.yml 
 	sed -i 's/value < min/value < 1/' ../src/components/Form/FormSpinBox.tsx
+ 
+	# Change default scenario (so the app will load after removing existing countries)
+	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'CoastalBend' as const/" ../src/constants.ts
+	
 
-	# Remove other countries
-	cd ../data
-	mv case-counts/ case-counts-disabled/
-	mkdir case-counts
-	mv parsers/ parsers-disabled/
-	mkdir parsers/
-	cp parsers-disabled/utils.py parsers-disables/__init__.py parsers/
 fi

@@ -36,8 +36,8 @@ sourcesTemplate = f.read()
 f.close()
 
 sources = "{\n"
-countrycodes = ""
-populationData = ""
+countrycodes = "name,alpha-2,alpha-3,country-code,iso_3166-2,region,sub-region,intermediate-region,region-code,sub-region-code,intermediate-region-code\n"
+populationData = "name\tpopulationServed\tageDistribution\thospitalBeds\tICUBeds\themisphere\tsrcPopulation\tsrcHospitalBeds\tsrcICUBeds\n"
 ageDistribution = ""
 
 
