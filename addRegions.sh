@@ -43,13 +43,10 @@ then
 	# Generate region data
 	python3 gendata.py
 
-
 	# Add parser
 	cp out/*.py ../data/parsers/ 
 	# Add sources
-	sed -i '$ d' ../data/sources.json
-	sed -i '$ d' ../data/sources.json
-	cat out/sources.json.cb >> ../data/sources.json
+	cp out/sources.json.cb ../data/sources.json
 	# Add county codes
 	cat out/country_codes.csv.cb >> ../data/country_codes.csv
 	# Add population data
@@ -71,7 +68,7 @@ then
 
 	# Generate asset data
 	cd ../data/
-	python3 generate_data.py --fetch --parsers CoastalBend
+	python3 generate_data.py --fetch
 	python3 generate_data.py \
 		--output-cases ../src/assets/data/caseCounts.json \
 		--output-scenarios ../src/assets/data/scenarios.json
@@ -135,4 +132,7 @@ then
 	cd ../data
 	mv case-counts/ case-counts-disabled/
 	mkdir case-counts
+	mv parsers/ parsers-disabled/
+	mkdir parsers/
+	cp parsers-disabled/utils.py parsers-disables/__init__.py parsers/
 fi

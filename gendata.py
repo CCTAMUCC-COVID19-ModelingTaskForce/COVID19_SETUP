@@ -18,8 +18,8 @@ countrycodesOutFile = "out/country_codes.csv.cb"
 populationDataOutFile = "out/populationData.tsv.cb"
 ageDistributionOutFile = "out/ageDistribution.json.cb"
 # Templates
-countrycodesTemplate = '{},TX,TX,"","",Americas,Northern America,"","","",""\n'
-populationDataTemplate = "{}\t{}\t{}\t357\t30\tNone\tNone\tNone\n"
+countrycodesTemplate = '{},TX,TX,"","",Americas,Northern Americas,"","","",""\n'
+populationDataTemplate = "{}\t{}\t{}\t357\t30\tNorthern\tNone\tNone\tNone\n"
 ageDistributionTemplate = '{"name" : "NAME", "data" : [{ "ageGroup" : "0-9", "population" : P1 }, { "ageGroup" : "10-19", "population" : P2 },  { "ageGroup" : "20-29", "population" : P3 }, { "ageGroup" : "30-39", "population" : P4 }, { "ageGroup" : "40-49", "population" : P5 }, { "ageGroup" : "50-59", "population" : P6 }, { "ageGroup" : "60-69", "population" : P7 }, { "ageGroup" : "70-79", "population" : P8 }, { "ageGroup" : "80+", "population" : P9 } ]}'
 
 # Get list of regions
@@ -35,7 +35,7 @@ f = open(sourcesTemplateFile, "r")
 sourcesTemplate = f.read()
 f.close()
 
-sources = "},\n"
+sources = "{\n"
 countrycodes = ""
 populationData = ""
 ageDistribution = ""
@@ -65,7 +65,7 @@ for region in regions:
 	filedata = f.read()
 	f.close()
 	newdata = filedata.replace("##COUNTIES_PLACEHOLDER", fmtCounties)
-	newdata = newdata.replace("##NAME_PLACEHOLDER", "parserName = {r}".format(r = region))
+	newdata = newdata.replace("##NAME_PLACEHOLDER", "parserName = '{r}'".format(r = region))
 	f = open(parserFile, "w")
 	f.write(newdata)
 	f.close()
@@ -87,8 +87,6 @@ for region in regions:
 		ageDistribution += ",\n"
 
 	count += 1
-
-print(ageDistribution)
 
 # Write files
 # Sources
