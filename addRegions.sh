@@ -64,11 +64,7 @@ then
 	cp out/populationData.tsv.cb ../data/populationData.tsv
 
 	# Add age distribution
-	head -n -3 ../src/assets/data/ageDistribution.json > out/ageDistribution.temp
-	echo "}," >> out/ageDistribution.temp
-	cat out/ageDistribution.json.cb >> out/ageDistribution.temp
-	echo "] }" >> out/ageDistribution.temp
-	cp out/ageDistribution.temp ../src/assets/data/ageDistribution.json
+	cp out/ageDistribution.json.cb ../src/assets/data/ageDistribution.json
 
 	# Add Hospital capacity 
 	#cat hospital_capacity.csv.cb >> ../data/hospital-data/hospital_capacity.csv

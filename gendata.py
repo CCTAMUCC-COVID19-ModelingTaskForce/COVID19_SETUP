@@ -38,12 +38,10 @@ f.close()
 sources = "{\n"
 countrycodes = "name,alpha-2,alpha-3,country-code,iso_3166-2,region,sub-region,intermediate-region,region-code,sub-region-code,intermediate-region-code\n"
 populationData = "name\tpopulationServed\tageDistribution\thospitalBeds\tICUBeds\themisphere\tsrcPopulation\tsrcHospitalBeds\tsrcICUBeds\n"
-ageDistribution = ""
-
+ageDistribution = '{\n  "all": [\n'
 
 count = 0
 for region in regions:
-	print(region)
 	# Get region's counties
 	counties = list(set([c.strip() for c in list(r2c[r2c["tsa"] == region]["county"])]))
 
@@ -103,6 +101,7 @@ f = open(populationDataOutFile, "w")
 f.write(populationData)
 f.close()
 # Age distribution
+ageDistribution += " ]}"
 f = open(ageDistributionOutFile, "w")
 f.write(ageDistribution)
 f.close()
