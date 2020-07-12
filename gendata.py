@@ -23,8 +23,8 @@ populationDataTemplate = "{}\t{}\t{}\t357\t30\tNorthern\tNone\tNone\tNone\n"
 ageDistributionTemplate = '{"name" : "NAME", "data" : [{ "ageGroup" : "0-9", "population" : P1 }, { "ageGroup" : "10-19", "population" : P2 },  { "ageGroup" : "20-29", "population" : P3 }, { "ageGroup" : "30-39", "population" : P4 }, { "ageGroup" : "40-49", "population" : P5 }, { "ageGroup" : "50-59", "population" : P6 }, { "ageGroup" : "60-69", "population" : P7 }, { "ageGroup" : "70-79", "population" : P8 }, { "ageGroup" : "80+", "population" : P9 } ]}'
 
 # Get list of regions
-r2c = pd.read_csv(r2cFile, sep = '\t', names = ["region", "county"])
-regions = list(set([r.strip() for r in list(r2c["region"])]))
+r2c = pd.read_csv(r2cFile, sep = '\t')
+regions = list(set([r.strip() for r in list(r2c["tsa"])]))
 numRegions = len(regions)
 
 # Open defaults
@@ -45,7 +45,7 @@ count = 0
 for region in regions:
 	print(region)
 	# Get region's counties
-	counties = list(set([c.strip() for c in list(r2c[r2c["region"] == region]["county"])]))
+	counties = list(set([c.strip() for c in list(r2c[r2c["tsa"] == region]["county"])]))
 
 	# Try to open region-specific files
 	if path.exists("{r}_popByAge.tsv".format(r = region)):

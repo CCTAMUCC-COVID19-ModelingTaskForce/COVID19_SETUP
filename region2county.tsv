@@ -1,19 +1,255 @@
-CoastalBend	aransas
-CoastalBend	bee
-CoastalBend	brooks
-CoastalBend	duval
-CoastalBend	jim_wells
-CoastalBend	kenedy
-CoastalBend	kleberg
-CoastalBend	live_oak
-CoastalBend	nueces
-CoastalBend	mcmullen
-CoastalBend	refugio
-CoastalBend	san_patricio
-TestGroup 	bexar
-TestGroup	kendall
-TestGroup	comal
-TestGroup	guadalupe
-TestGroup	wilson
-TestGroup	atascosa
-TestGroup	medina
+county	tsa	district	rac	phr
+atascosa	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+matagorda	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
+jackson	TSA-S	Yoakum	Golden Crescent	PHR-8
+de_witt	TSA-S	Yoakum	Golden Crescent	PHR-8
+wilson	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+kinney	TSA-P	Laredo	Southwest Texas RAC	PHR-8
+uvalde	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+lavaca	TSA-S	Yoakum	Golden Crescent	PHR-8
+brazoria	TSA-R	Houston	East Texas Gulf Coast	PHR-6/5s
+wharton	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
+medina	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+galveston	TSA-R	Houston	East Texas Gulf Coast	PHR-6/5s
+bexar	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+gonzales	TSA-P	Yoakum	Southwest Texas RAC	PHR-8
+fort_bend	TSA-Q	Houston	Southeast Texas	PHR-6/5s
+guadalupe	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+bandera	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+colorado	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
+chambers	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
+comal	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+real	TSA-P	San Angelo	Southwest Texas RAC	PHR-8
+caldwell	TSA-O	Austin	Capital Area Trauma	PHR-7
+kendall	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+austin	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
+fayette	TSA-O	Yoakum	Capital Area Trauma	PHR-7
+harris	TSA-Q	Houston	Southeast Texas	PHR-6/5s
+edwards	TSA-P	San Angelo	Southwest Texas RAC	PHR-8
+kerr	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+val_verde	TSA-P	Laredo	Southwest Texas RAC	PHR-8
+waller	TSA-Q	Houston	Southeast Texas	PHR-6/5s
+jefferson	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
+hays	TSA-O	Austin	Capital Area Trauma	PHR-7
+cameron	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
+willacy	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
+starr	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
+hidalgo	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
+brooks	TSA-U	Pharr	Coastal Bend	PHR-11
+kenedy	TSA-U	Pharr	Coastal Bend	PHR-11
+zapata	TSA-T	Pharr	Seven Flags	PHR-11
+jim_hogg	TSA-T	Pharr	Seven Flags	PHR-11
+kleberg	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+nueces	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+duval	TSA-U	Laredo	Coastal Bend	PHR-11
+jim_wells	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+san_patricio	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+webb	TSA-T	Laredo	Seven Flags	PHR-11
+aransas	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+refugio	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+dimmit	TSA-P	Laredo	Southwest Texas RAC	PHR-8
+la_salle	TSA-P	Laredo	Southwest Texas RAC	PHR-8
+mcmullen	TSA-U	San Antonio	Coastal Bend	PHR-11
+bee	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+calhoun	TSA-S	Yoakum	Golden Crescent	PHR-8
+live_oak	TSA-U	Corpus Christi	Coastal Bend	PHR-11
+goliad	TSA-S	Corpus Christi	Golden Crescent	PHR-8
+maverick	TSA-P	Laredo	Southwest Texas RAC	PHR-8
+zavala	TSA-P	Laredo	Southwest Texas RAC	PHR-8
+frio	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
+victoria	TSA-S	Yoakum	Golden Crescent	PHR-8
+karnes	TSA-P	Corpus Christi	Southwest Texas RAC	PHR-8
+hudspeth	TSA-I	El Paso	Border	PHR-9/10
+anderson	TSA-G	Tyler	Piney Woods	PHR-4/5n
+el_paso	TSA-I	El Paso	Border	PHR-9/10
+bosque	TSA-M	Waco	Heart of Texas	PHR-7
+cherokee	TSA-G	Tyler	Piney Woods	PHR-4/5n
+comanche	TSA-D	Brownwood	Big Country	PHR-2/3
+hill	TSA-M	Waco	Heart of Texas	PHR-7
+somervell	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+navarro	TSA-E	Dallas	North Central Texas	PHR-2/3
+henderson	TSA-G	Tyler	Piney Woods	PHR-4/5n
+callahan	TSA-D	Abilene	Big Country	PHR-2/3
+rusk	TSA-G	Tyler	Piney Woods	PHR-4/5n
+eastland	TSA-D	Brownwood	Big Country	PHR-2/3
+taylor	TSA-D	Abilene	Big Country	PHR-2/3
+erath	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+nolan	TSA-D	Abilene	Big Country	PHR-2/3
+panola	TSA-G	Atlanta	Piney Woods	PHR-4/5n
+mitchell	TSA-D	Abilene	Big Country	PHR-2/3
+howard	TSA-J	Abilene	"Texas ""J"""	PHR-9/10
+martin	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+andrews	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+hood	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+johnson	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+ellis	TSA-E	Dallas	North Central Texas	PHR-2/3
+smith	TSA-G	Tyler	Piney Woods	PHR-4/5n
+gregg	TSA-G	Tyler	Piney Woods	PHR-4/5n
+kaufman	TSA-E	Dallas	North Central Texas	PHR-2/3
+harrison	TSA-G	Atlanta	Piney Woods	PHR-4/5n
+van_zandt	TSA-G	Tyler	Piney Woods	PHR-4/5n
+shackelford	TSA-D	Abilene	Big Country	PHR-2/3
+jones	TSA-D	Abilene	Big Country	PHR-2/3
+stephens	TSA-D	Brownwood	Big Country	PHR-2/3
+fisher	TSA-D	Abilene	Big Country	PHR-2/3
+borden	TSA-B	Abilene	BRAC	PHR-9/10
+scurry	TSA-B	Abilene	BRAC	PHR-9/10
+orange	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
+bastrop	TSA-O	Austin	Capital Area Trauma	PHR-7
+washington	TSA-N	Bryan	Brazos Valley	PHR-7
+gillespie	TSA-P	Austin	Southwest Texas RAC	PHR-8
+blanco	TSA-O	Austin	Capital Area Trauma	PHR-7
+lee	TSA-O	Austin	Capital Area Trauma	PHR-7
+liberty	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
+travis	TSA-O	Austin	Capital Area Trauma	PHR-7
+hardin	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
+terrell	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+montgomery	TSA-Q	Houston	Southeast Texas	PHR-6/5s
+sutton	TSA-K	San Angelo	Concho Valley	PHR-9/10
+kimble	TSA-K	San Angelo	Concho Valley	PHR-9/10
+brewster	TSA-J	El Paso	"Texas ""J"""	PHR-9/10
+presidio	TSA-J	El Paso	"Texas ""J"""	PHR-9/10
+burleson	TSA-N	Bryan	Brazos Valley	PHR-7
+williamson	TSA-O	Austin	Capital Area Trauma	PHR-7
+grimes	TSA-N	Bryan	Brazos Valley	PHR-7
+llano	TSA-O	Austin	Capital Area Trauma	PHR-7
+mason	TSA-K	Austin	Concho Valley	PHR-9/10
+san_jacinto	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
+brazos	TSA-N	Bryan	Brazos Valley	PHR-7
+burnet	TSA-O	Austin	Capital Area Trauma	PHR-7
+menard	TSA-K	San Angelo	Concho Valley	PHR-9/10
+schleicher	TSA-K	San Angelo	Concho Valley	PHR-9/10
+crockett	TSA-K	San Angelo	Concho Valley	PHR-9/10
+walker	TSA-Q	Bryan	Southeast Texas	PHR-6/5s
+milam	TSA-L	Bryan	Central Texas	PHR-7
+madison	TSA-N	Bryan	Brazos Valley	PHR-7
+jeff_davis	TSA-J	El Paso	"Texas ""J"""	PHR-9/10
+tyler	TSA-H	Beaumont	Deep East Texas	PHR-4/5n
+polk	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
+jasper	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
+bell	TSA-L	Waco	Central Texas	PHR-7
+newton	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
+pecos	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+robertson	TSA-N	Bryan	Brazos Valley	PHR-7
+lampasas	TSA-L	Brownwood	Central Texas	PHR-7
+trinity	TSA-G	Lufkin	Piney Woods	PHR-4/5n
+san_saba	TSA-O	Brownwood	Capital Area Trauma	PHR-7
+mcculloch	TSA-K	Brownwood	Concho Valley	PHR-9/10
+irion	TSA-K	San Angelo	Concho Valley	PHR-9/10
+falls	TSA-M	Waco	Heart of Texas	PHR-7
+concho	TSA-K	San Angelo	Concho Valley	PHR-9/10
+angelina	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
+reagan	TSA-K	San Angelo	Concho Valley	PHR-9/10
+upton	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+houston	TSA-G	Lufkin	Piney Woods	PHR-4/5n
+crane	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+ward	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+tom_green	TSA-K	San Angelo	Concho Valley	PHR-9/10
+leon	TSA-N	Bryan	Brazos Valley	PHR-7
+coryell	TSA-L	Waco	Central Texas	PHR-7
+mills	TSA-L	Brownwood	Central Texas	PHR-7
+sabine	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
+san_augustine	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
+limestone	TSA-M	Waco	Heart of Texas	PHR-7
+mclennan	TSA-M	Waco	Heart of Texas	PHR-7
+nacogdoches	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
+hamilton	TSA-L	Waco	Central Texas	PHR-7
+loving	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+reeves	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+freestone	TSA-G	Bryan	Piney Woods	PHR-4/5n
+coleman	TSA-D	Brownwood	Big Country	PHR-2/3
+runnels	TSA-K	San Angelo	Concho Valley	PHR-9/10
+brown	TSA-D	Brownwood	Big Country	PHR-2/3
+coke	TSA-K	San Angelo	Concho Valley	PHR-9/10
+culberson	TSA-I	El Paso	Border	PHR-9/10
+sterling	TSA-K	San Angelo	Concho Valley	PHR-9/10
+glasscock	TSA-J	San Angelo	"Texas ""J"""	PHR-9/10
+midland	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+ector	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+shelby	TSA-G	Lufkin	Piney Woods	PHR-4/5n
+winkler	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
+tarrant	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+dallas	TSA-E	Dallas	North Central Texas	PHR-2/3
+crosby	TSA-B	Lubbock	BRAC	PHR-9/10
+lubbock	TSA-B	Lubbock	BRAC	PHR-9/10
+archer	TSA-C	Wichita Falls	North Texas	PHR-2/3
+hockley	TSA-B	Lubbock	BRAC	PHR-9/10
+cochran	TSA-B	Lubbock	BRAC	PHR-9/10
+fannin	TSA-E	Paris	North Central Texas	PHR-2/3
+cooke	TSA-E	Wichita Falls	North Central Texas	PHR-2/3
+grayson	TSA-E	Paris	North Central Texas	PHR-2/3
+montague	TSA-C	Wichita Falls	North Texas	PHR-2/3
+lamar	TSA-F	Paris	Northeast Texas	PHR-4/5n
+red_river	TSA-F	Paris	Northeast Texas	PHR-4/5n
+clay	TSA-C	Wichita Falls	North Texas	PHR-2/3
+wichita	TSA-C	Wichita Falls	North Texas	PHR-2/3
+foard	TSA-C	Childress	North Texas	PHR-2/3
+cottle	TSA-B	Childress	BRAC	PHR-9/10
+motley	TSA-B	Childress	BRAC	PHR-9/10
+floyd	TSA-B	Lubbock	BRAC	PHR-9/10
+hale	TSA-B	Lubbock	BRAC	PHR-9/10
+rockwall	TSA-E	Dallas	North Central Texas	PHR-2/3
+rains	TSA-G	Paris	Piney Woods	PHR-4/5n
+wood	TSA-G	Tyler	Piney Woods	PHR-4/5n
+camp	TSA-G	Atlanta	Piney Woods	PHR-4/5n
+stonewall	TSA-D	Abilene	Big Country	PHR-2/3
+haskell	TSA-D	Abilene	Big Country	PHR-2/3
+kent	TSA-B	Abilene	BRAC	PHR-9/10
+throckmorton	TSA-D	Wichita Falls	Big Country	PHR-2/3
+garza	TSA-B	Lubbock	BRAC	PHR-9/10
+lynn	TSA-B	Lubbock	BRAC	PHR-9/10
+young	TSA-C	Wichita Falls	North Texas	PHR-2/3
+terry	TSA-B	Lubbock	BRAC	PHR-9/10
+yoakum	TSA-B	Lubbock	BRAC	PHR-9/10
+cass	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
+collin	TSA-E	Dallas	North Central Texas	PHR-2/3
+denton	TSA-E	Dallas	North Central Texas	PHR-2/3
+wise	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+hopkins	TSA-F	Paris	Northeast Texas	PHR-4/5n
+morris	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
+hunt	TSA-E	Paris	North Central Texas	PHR-2/3
+franklin	TSA-G	Paris	Piney Woods	PHR-4/5n
+jack	TSA-C	Fort Worth	North Texas	PHR-2/3
+titus	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
+delta	TSA-F	Paris	Northeast Texas	PHR-4/5n
+bowie	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
+knox	TSA-D	Childress	Big Country	PHR-2/3
+king	TSA-B	Childress	BRAC	PHR-9/10
+dickens	TSA-B	Childress	BRAC	PHR-9/10
+baylor	TSA-C	Wichita Falls	North Texas	PHR-2/3
+dawson	TSA-B	Lubbock	BRAC	PHR-9/10
+gaines	TSA-B	Lubbock	BRAC	PHR-9/10
+upshur	TSA-G	Atlanta	Piney Woods	PHR-4/5n
+marion	TSA-G	Atlanta	Piney Woods	PHR-4/5n
+palo_pinto	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+parker	TSA-E	Fort Worth	North Central Texas	PHR-2/3
+randall	TSA-A	Amarillo	Panhandle	PHR-1
+deaf_smith	TSA-A	Amarillo	Panhandle	PHR-1
+wheeler	TSA-A	Childress	Panhandle	PHR-1
+gray	TSA-A	Amarillo	Panhandle	PHR-1
+carson	TSA-A	Amarillo	Panhandle	PHR-1
+potter	TSA-A	Amarillo	Panhandle	PHR-1
+oldham	TSA-A	Amarillo	Panhandle	PHR-1
+hemphill	TSA-A	Amarillo	Panhandle	PHR-1
+roberts	TSA-A	Amarillo	Panhandle	PHR-1
+hutchinson	TSA-A	Amarillo	Panhandle	PHR-1
+lamb	TSA-B	Lubbock	BRAC	PHR-9/10
+bailey	TSA-B	Lubbock	BRAC	PHR-9/10
+wilbarger	TSA-C	Wichita Falls	North Texas	PHR-2/3
+hardeman	TSA-C	Childress	North Texas	PHR-2/3
+childress	TSA-A	Childress	Panhandle	PHR-1
+hall	TSA-A	Childress	Panhandle	PHR-1
+briscoe	TSA-A	Childress	Panhandle	PHR-1
+swisher	TSA-A	Lubbock	Panhandle	PHR-1
+castro	TSA-B	Lubbock	BRAC	PHR-9/10
+parmer	TSA-A	Lubbock	Panhandle	PHR-1
+collingsworth	TSA-A	Childress	Panhandle	PHR-1
+donley	TSA-A	Childress	Panhandle	PHR-1
+armstrong	TSA-A	Amarillo	Panhandle	PHR-1
+lipscomb	TSA-A	Amarillo	Panhandle	PHR-1
+ochiltree	TSA-A	Amarillo	Panhandle	PHR-1
+hansford	TSA-A	Amarillo	Panhandle	PHR-1
+sherman	TSA-A	Amarillo	Panhandle	PHR-1
+dallam	TSA-A	Amarillo	Panhandle	PHR-1
+moore	TSA-A	Amarillo	Panhandle	PHR-1
+hartley	TSA-A	Amarillo	Panhandle	PHR-1

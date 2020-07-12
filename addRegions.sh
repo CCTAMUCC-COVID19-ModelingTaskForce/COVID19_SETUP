@@ -77,8 +77,6 @@ then
 	##### Add initial conditions  <---- perhaps not. Autopopulated?
 	####cat initialCondition.tsv.cb >> ../data/initialCondition.tsv
 
-	exit 0
-
 	# Generate asset data
 	cd ../data/
 	python3 generate_data.py --fetch
@@ -143,5 +141,5 @@ then
 	sed -i 's/value < min/value < 1/' ../src/components/Form/FormSpinBox.tsx
  
 	# Change default scenario (so the app will load after removing existing countries)
-	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'CoastalBend' as const/" ../src/constants.ts
+	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'TSA-U' as const/" ../src/constants.ts
 fi
