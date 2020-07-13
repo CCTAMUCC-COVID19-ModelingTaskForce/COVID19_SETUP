@@ -24,6 +24,13 @@ then
 	mv ../data/parsers/ backup/parsers
 	mkdir ../data/parsers/
 	cp backup/parsers/utils.py backup/parsers/__init__.py ../data/parsers/
+	# Files that will be patched with "--patch" option
+	cp ../src/components/Main/validation/schema.ts backup/src-components-Main-validation-schema.ts
+	cp ../schemas/ScenarioDatumSimulation.yml backup/schemas-ScenarioDatumSimulation.yml
+	cp ../src/components/Form/FormSpinBox.tsx backup/src-components-Form-FormSpinBox.tsx
+	cp ../src/components/Main/validation/schema.ts backup/src-components-Main-validation-schema.ts
+	cp ../schemas/PercentageRange.yml backup/schemas-PercentageRange.yml
+	cp ../src/constants.ts backup/src-constants.ts
 fi
 
 # Clean repo (remove coastal bend scenario)
@@ -46,6 +53,13 @@ then
 	mv backup/case-counts/ ../data/case-counts/
 	rm -rf ../data/parsers/
 	mv backup/parsers/ ../data/parsers/
+	# Files that will be patched with "--patch" option
+	cp backup/src-components-Main-validation-schema.ts ../src/components/Main/validation/schema.ts 
+	cp backup/schemas-ScenarioDatumSimulation.yml ../schemas/ScenarioDatumSimulation.yml
+	cp backup/src-components-Form-FormSpinBox.tsx ../src/components/Form/FormSpinBox.tsx 
+	cp backup/src-components-Main-validation-schema.ts ../src/components/Main/validation/schema.ts 
+	cp backup/schemas-PercentageRange.yml ../schemas/PercentageRange.yml 
+	cp backup/src-constants.ts  ../src/constants.ts 
 fi
 
 if [ $option == "--add" ]
@@ -134,8 +148,12 @@ then
 	sed -i 's/10, MSG_AT_LEAST_TEN/1, MSG_AT_LEAST_TEN/' ../src/components/Main/validation/schema.ts
 	sed -i 's/minimum: 10/minimum: 1/' ../schemas/ScenarioDatumSimulation.yml
 	sed -i 's/maximum: 100/maximum: 100001/' ../schemas/ScenarioDatumSimulation.yml 
-	sed -i 's/value < min/value < 1/' ../src/components/Form/FormSpinBox.tsx
+	#sed -i 's/value < min/value < 1/' ../src/components/Form/FormSpinBox.tsx
+
+	# Increase max percentage to 1000
+	sed -i 's/100, MSG_MAX_100/1000, MSG_MAX_100/' ../src/components/Main/validation/schema.ts
+	sed -i 's/maximum: 100/maximum: 1000/' ../schemas/PercentageRange.yml
  
 	# Change default scenario (so the app will load after removing existing countries)
-	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'TSA-U' as const/" ../src/constants.ts
+	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'texas' as const/" ../src/constants.ts
 fi
