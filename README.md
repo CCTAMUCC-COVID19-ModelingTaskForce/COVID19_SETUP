@@ -23,12 +23,12 @@ The repo is used to insert the Coastal Bend scenario so that it can be used with
 
 #### Get covid19_scenarios repository
 
-	git clone https://github.com/neherlab/covid19_scenarios.git
+	git clone --recursive https://github.com/neherlab/covid19_scenarios.git
 
-#### Get Coastal Bend scenario repository
+#### Get this repository
 	
 	cd covid19_scenarios
-	git clone https://github.com/cbirdlab/COVID19_CoastalBend.git
+	git clone https://github.com/cbirdlab/COVID19_SETUP.git
 
 #### Run covid19_scenarios
 
@@ -37,24 +37,18 @@ The repo is used to insert the Coastal Bend scenario so that it can be used with
 	yarn dev
 	
 #### Integrate Coastal Bend scenario
-	cd COVID19_CoastalBend
+	cd COVID19_SETUP
 	# Backup the original data files
-	bash addCoastalBend.sh --backup
+	bash addRegions.sh --backup
 
 	# Patch code
-	bash addCoastalBend.sh --patch
+	bash addRegions.sh --patch
 	
 	# Update scenario files from web sources
-	bash addCoastalBend.sh --update
+	bash addRegions.sh --update
 	
-	# Add scenario data files to covid19_scenarios application
-	bash addCoastalBend.sh --add
-
-#### Rerunning if something went wrong
-	# If something goes wrong, troubleshoot and then run this in `COVID19_CoastalBend`
-	bash addCoastalBend.sh --restore
-	bash addCoastalBend.sh --update
-	bash addCoastalBend.sh --add
+	# Generate scenario data files and add to covid19_scenarios application
+	bash addRegions.sh --add
 
 Navigate to http://localhost:3000 in a browser. 
 
