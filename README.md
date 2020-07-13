@@ -58,6 +58,14 @@ The repo is used to insert the Coastal Bend scenario so that it can be used with
 
 Navigate to http://localhost:3000 in a browser. 
 
+## Optional: update 'region2county.tsv`
+
+The repo already contains a default `region2county.tsv` that maps counties to a region categories. Each region is a scenario within the application.
+This file must contain at least two columns. One column has the name _county_ and each value is a county name in lower-case. Spaces have underscores such as "fort_bend". The second column can contain arbitrary strings (no spaces) used to categorize the counties. The application's defaut is Trama Service Areas (TSA). 
+
+	# Generate region2county.tsv
+	python3 regions2tsv.py
+
 ## Quick Start After First Time: Upgrade the covid19_scenario model
 
 These steps allow you to pull the latest changes to `covid19_scenarios`. 
@@ -86,12 +94,12 @@ In the following, `$Y` is the year, `$M` is the month, and `$D` is the day.
 	mkdir c19s_$Y$M$D
 	cd c19s_$Y$M$D
 
-#### Clone `covid19_scenarios` and this repo, `COVID19_CoastalBend`
+#### Clone `covid19_scenarios` and this repo, `COVID19_SETUP`
 	
 	git clone --recursive https://github.com/neherlab/covid19_scenarios.git
 	cd covid19_scenarios
-	git clone https://github.com/CCTAMUCC-COVID19-ModelingTaskForce/COVID19_CoastalBend.git
-	rm -rf .git* COVID19_CoastalBend/.git*
+	git clone https://github.com/CCTAMUCC-COVID19-ModelingTaskForce/COVID19_SETUP.git
+	rm -rf .git* COVID19_SETUP/.git*
 	
 #### Create repo on github
 
@@ -106,7 +114,7 @@ Navigate to github.com and create repo `c19s_$Y$M$D` in organization `CCTAMUCC-C
 	git commit -m "Init"
 	git push -u origin master
 	
-#### Setup CoastalBend data	
+#### Setup data	
 
 First, follow the above **Quick Start: First Time Running**. 
 Then, test out the web application locally.
