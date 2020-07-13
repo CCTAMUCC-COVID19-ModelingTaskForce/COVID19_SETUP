@@ -5,9 +5,20 @@ from os import path
 import fileinput
 import pandas as pd
 from shutil import copyfile 
+from optparse import OptionParser
+
+parser = OptionParser()
+parser.add_option("-i", "--infile",
+	help = "Path to file mapping counties to regions. One column must be 'county' and another must be the region categories.",
+	default = "region2county.tsv")
+parser.add_option("-k", "--key",
+	help = "Column name of region categories in the mapping file. Default is 'tsa'.",
+	default = "tsa")
+(options, args) = parser.parse_args()
 
 # Input files
-r2cFile = "region2county.tsv"
+key = options.key
+r2cFile = options.infile
 parserTemplateFile = "ParserTemplate.py"
 sourcesTemplateFile = "sources.json.template"
 defaultParamsFile = "default_params.tsv"
