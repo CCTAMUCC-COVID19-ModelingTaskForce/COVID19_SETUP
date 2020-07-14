@@ -1,0 +1,20 @@
+parameter	meanVal	distribution	stdev	upper	lower
+Scenario	texas	na	na	na	na
+Age distribution	texas	na	na	na	na
+Population size	29472295	na	na	na	na
+Initial number of cases	1	na	na	na	na
+Imports per day	0.1	na	na	na	na
+Hospital beds available	67786	na	na	na	na
+ICU beds available	2260	na	na	na	na
+Confirmed cases	texas	na	na	na	na
+Simulation start date	2/25/2020	na	na	na	na
+Simulation end date	8/30/2020	na	na	na	na
+Number of Runs	10	na	na	na	na
+Ro	4.29	even	na	4.72	3.86
+Latency	3	normal	0.5	3	3
+Infectious period	3	normal	0.5	3	3
+Seasonal forcing	0	na	na	na	na
+Seasonal peak	January	na	na	na	na
+Days in hospital	3	normal	0.5	na	na
+Days in icu	14	normal	0.5	na	na
+Severity of ICU overflow	2	na	na	na	na

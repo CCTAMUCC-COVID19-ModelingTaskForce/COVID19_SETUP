@@ -13,6 +13,7 @@ then
 	cp ../data/populationData.tsv backup/populationData.tsv.orig
 	cp ../data/hospital-data/hospital_capacity.csv backup/hospital_capacity.csv.orig
 	cp ../data/hospital-data/ICU_capacity.tsv backup/ICU_capacity.tsv.orig
+	cp ../data/initialCondition.tsv backup/initialCondition.tsv
 	# Data assets
 	cp ../src/assets/data/caseCounts.json backup/caseCounts.json.orig
 	cp ../src/assets/data/ageDistribution.json backup/ageDistribution.json.orig
@@ -43,6 +44,7 @@ then
 	cp populationData.tsv.orig ../data/populationData.tsv 
 	cp hospital_capacity.csv.orig ../data/hospital-data/hospital_capacity.csv
 	cp ICU_capacity.tsv.orig ../data/hospital-data/ICU_capacity.tsv
+	cp backup/initialCondition.tsv ../data/initialCondition.tsv
 	# Data assets
 	cp caseCounts.json.orig ../src/assets/data/caseCounts.json
 	cp ageDistribution.json.orig ../src/assets/data/ageDistribution.json
@@ -68,31 +70,16 @@ then
 	# Generate region data
 	python3 gendata.py
 
-	# Add parser
 	cp out/*.py ../data/parsers/ 
-	# Add sources
 	cp out/sources.json.cb ../data/sources.json
-	# Add county codes
-	cp out/country_codes.csv.cb ../data/country_codes.csv
-	# Add population data
-	cp out/populationData.tsv.cb ../data/populationData.tsv
-
-	# Add age distribution
 	cp out/ageDistribution.json.cb ../src/assets/data/ageDistribution.json
+	cp out/scenarios.json.cb ../src/assets/data/scenarios.json
+	cp out/severityDistributions.json.cb ../src/assets/data/severityDistributions.json
 
-	# Add Hospital capacity 
-	#cat hospital_capacity.csv.cb >> ../data/hospital-data/hospital_capacity.csv
-	# Add ICU capacity 
-	#cat ICU_capacity.tsv.cb >> ../data/hospital-data/ICU_capacity.tsv
-	##### Add initial conditions  <---- perhaps not. Autopopulated?
-	####cat initialCondition.tsv.cb >> ../data/initialCondition.tsv
-
-	# Generate asset data
-	cd ../data/
+	cd ../data
 	python3 generate_data.py --fetch
 	python3 generate_data.py \
-		--output-cases ../src/assets/data/caseCounts.json \
-		--output-scenarios ../src/assets/data/scenarios.json
+		--output-cases ../src/assets/data/caseCounts.json
 fi
 
 if [ $option == "--update" ]
@@ -156,4 +143,6 @@ then
  
 	# Change default scenario (so the app will load after removing existing countries)
 	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'texas' as const/" ../src/constants.ts
+	sed -i -e "s/DEFAULT_SEVERITY_DISTRIBUTION = .* as const/DEFAULT_SEVERITY_DISTRIBUTION = 'texas' as const/" ../src/constants.ts
+
 fi
