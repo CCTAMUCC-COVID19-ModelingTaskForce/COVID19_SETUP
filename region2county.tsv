@@ -1,509 +1,509 @@
 county	tsa	district	rac	phr
-atascosa	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-matagorda	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
-jackson	TSA-S	Yoakum	Golden Crescent	PHR-8
-de_witt	TSA-S	Yoakum	Golden Crescent	PHR-8
-wilson	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-kinney	TSA-P	Laredo	Southwest Texas RAC	PHR-8
-uvalde	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-lavaca	TSA-S	Yoakum	Golden Crescent	PHR-8
-brazoria	TSA-R	Houston	East Texas Gulf Coast	PHR-6/5s
-wharton	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
-medina	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-galveston	TSA-R	Houston	East Texas Gulf Coast	PHR-6/5s
-bexar	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-gonzales	TSA-P	Yoakum	Southwest Texas RAC	PHR-8
-fort_bend	TSA-Q	Houston	Southeast Texas	PHR-6/5s
-guadalupe	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-bandera	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-colorado	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
-chambers	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
-comal	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-real	TSA-P	San Angelo	Southwest Texas RAC	PHR-8
-caldwell	TSA-O	Austin	Capital Area Trauma	PHR-7
-kendall	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-austin	TSA-Q	Yoakum	Southeast Texas	PHR-6/5s
-fayette	TSA-O	Yoakum	Capital Area Trauma	PHR-7
-harris	TSA-Q	Houston	Southeast Texas	PHR-6/5s
-edwards	TSA-P	San Angelo	Southwest Texas RAC	PHR-8
-kerr	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-val_verde	TSA-P	Laredo	Southwest Texas RAC	PHR-8
-waller	TSA-Q	Houston	Southeast Texas	PHR-6/5s
-jefferson	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
-hays	TSA-O	Austin	Capital Area Trauma	PHR-7
-cameron	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
-willacy	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
-starr	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
-hidalgo	TSA-V	Pharr	Lower Rio Grande Valley	PHR-11
-brooks	TSA-U	Pharr	Coastal Bend	PHR-11
-kenedy	TSA-U	Pharr	Coastal Bend	PHR-11
-zapata	TSA-T	Pharr	Seven Flags	PHR-11
-jim_hogg	TSA-T	Pharr	Seven Flags	PHR-11
-kleberg	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-nueces	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-duval	TSA-U	Laredo	Coastal Bend	PHR-11
-jim_wells	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-san_patricio	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-webb	TSA-T	Laredo	Seven Flags	PHR-11
-aransas	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-refugio	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-dimmit	TSA-P	Laredo	Southwest Texas RAC	PHR-8
-la_salle	TSA-P	Laredo	Southwest Texas RAC	PHR-8
-mcmullen	TSA-U	San Antonio	Coastal Bend	PHR-11
-bee	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-calhoun	TSA-S	Yoakum	Golden Crescent	PHR-8
-live_oak	TSA-U	Corpus Christi	Coastal Bend	PHR-11
-goliad	TSA-S	Corpus Christi	Golden Crescent	PHR-8
-maverick	TSA-P	Laredo	Southwest Texas RAC	PHR-8
-zavala	TSA-P	Laredo	Southwest Texas RAC	PHR-8
-frio	TSA-P	San Antonio	Southwest Texas RAC	PHR-8
-victoria	TSA-S	Yoakum	Golden Crescent	PHR-8
-karnes	TSA-P	Corpus Christi	Southwest Texas RAC	PHR-8
-hudspeth	TSA-I	El Paso	Border	PHR-9/10
-anderson	TSA-G	Tyler	Piney Woods	PHR-4/5n
-el_paso	TSA-I	El Paso	Border	PHR-9/10
-bosque	TSA-M	Waco	Heart of Texas	PHR-7
-cherokee	TSA-G	Tyler	Piney Woods	PHR-4/5n
-comanche	TSA-D	Brownwood	Big Country	PHR-2/3
-hill	TSA-M	Waco	Heart of Texas	PHR-7
-somervell	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-navarro	TSA-E	Dallas	North Central Texas	PHR-2/3
-henderson	TSA-G	Tyler	Piney Woods	PHR-4/5n
-callahan	TSA-D	Abilene	Big Country	PHR-2/3
-rusk	TSA-G	Tyler	Piney Woods	PHR-4/5n
-eastland	TSA-D	Brownwood	Big Country	PHR-2/3
-taylor	TSA-D	Abilene	Big Country	PHR-2/3
-erath	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-nolan	TSA-D	Abilene	Big Country	PHR-2/3
-panola	TSA-G	Atlanta	Piney Woods	PHR-4/5n
-mitchell	TSA-D	Abilene	Big Country	PHR-2/3
-howard	TSA-J	Abilene	"Texas ""J"""	PHR-9/10
-martin	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-andrews	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-hood	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-johnson	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-ellis	TSA-E	Dallas	North Central Texas	PHR-2/3
-smith	TSA-G	Tyler	Piney Woods	PHR-4/5n
-gregg	TSA-G	Tyler	Piney Woods	PHR-4/5n
-kaufman	TSA-E	Dallas	North Central Texas	PHR-2/3
-harrison	TSA-G	Atlanta	Piney Woods	PHR-4/5n
-van_zandt	TSA-G	Tyler	Piney Woods	PHR-4/5n
-shackelford	TSA-D	Abilene	Big Country	PHR-2/3
-jones	TSA-D	Abilene	Big Country	PHR-2/3
-stephens	TSA-D	Brownwood	Big Country	PHR-2/3
-fisher	TSA-D	Abilene	Big Country	PHR-2/3
-borden	TSA-B	Abilene	BRAC	PHR-9/10
-scurry	TSA-B	Abilene	BRAC	PHR-9/10
-orange	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
-bastrop	TSA-O	Austin	Capital Area Trauma	PHR-7
-washington	TSA-N	Bryan	Brazos Valley	PHR-7
-gillespie	TSA-P	Austin	Southwest Texas RAC	PHR-8
-blanco	TSA-O	Austin	Capital Area Trauma	PHR-7
-lee	TSA-O	Austin	Capital Area Trauma	PHR-7
-liberty	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
-travis	TSA-O	Austin	Capital Area Trauma	PHR-7
-hardin	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
-terrell	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-montgomery	TSA-Q	Houston	Southeast Texas	PHR-6/5s
-sutton	TSA-K	San Angelo	Concho Valley	PHR-9/10
-kimble	TSA-K	San Angelo	Concho Valley	PHR-9/10
-brewster	TSA-J	El Paso	"Texas ""J"""	PHR-9/10
-presidio	TSA-J	El Paso	"Texas ""J"""	PHR-9/10
-burleson	TSA-N	Bryan	Brazos Valley	PHR-7
-williamson	TSA-O	Austin	Capital Area Trauma	PHR-7
-grimes	TSA-N	Bryan	Brazos Valley	PHR-7
-llano	TSA-O	Austin	Capital Area Trauma	PHR-7
-mason	TSA-K	Austin	Concho Valley	PHR-9/10
-san_jacinto	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
-brazos	TSA-N	Bryan	Brazos Valley	PHR-7
-burnet	TSA-O	Austin	Capital Area Trauma	PHR-7
-menard	TSA-K	San Angelo	Concho Valley	PHR-9/10
-schleicher	TSA-K	San Angelo	Concho Valley	PHR-9/10
-crockett	TSA-K	San Angelo	Concho Valley	PHR-9/10
-walker	TSA-Q	Bryan	Southeast Texas	PHR-6/5s
-milam	TSA-L	Bryan	Central Texas	PHR-7
-madison	TSA-N	Bryan	Brazos Valley	PHR-7
-jeff_davis	TSA-J	El Paso	"Texas ""J"""	PHR-9/10
-tyler	TSA-H	Beaumont	Deep East Texas	PHR-4/5n
-polk	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
-jasper	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
-bell	TSA-L	Waco	Central Texas	PHR-7
-newton	TSA-R	Beaumont	East Texas Gulf Coast	PHR-6/5s
-pecos	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-robertson	TSA-N	Bryan	Brazos Valley	PHR-7
-lampasas	TSA-L	Brownwood	Central Texas	PHR-7
-trinity	TSA-G	Lufkin	Piney Woods	PHR-4/5n
-san_saba	TSA-O	Brownwood	Capital Area Trauma	PHR-7
-mcculloch	TSA-K	Brownwood	Concho Valley	PHR-9/10
-irion	TSA-K	San Angelo	Concho Valley	PHR-9/10
-falls	TSA-M	Waco	Heart of Texas	PHR-7
-concho	TSA-K	San Angelo	Concho Valley	PHR-9/10
-angelina	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
-reagan	TSA-K	San Angelo	Concho Valley	PHR-9/10
-upton	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-houston	TSA-G	Lufkin	Piney Woods	PHR-4/5n
-crane	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-ward	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-tom_green	TSA-K	San Angelo	Concho Valley	PHR-9/10
-leon	TSA-N	Bryan	Brazos Valley	PHR-7
-coryell	TSA-L	Waco	Central Texas	PHR-7
-mills	TSA-L	Brownwood	Central Texas	PHR-7
-sabine	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
-san_augustine	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
-limestone	TSA-M	Waco	Heart of Texas	PHR-7
-mclennan	TSA-M	Waco	Heart of Texas	PHR-7
-nacogdoches	TSA-H	Lufkin	Deep East Texas	PHR-4/5n
-hamilton	TSA-L	Waco	Central Texas	PHR-7
-loving	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-reeves	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-freestone	TSA-G	Bryan	Piney Woods	PHR-4/5n
-coleman	TSA-D	Brownwood	Big Country	PHR-2/3
-runnels	TSA-K	San Angelo	Concho Valley	PHR-9/10
-brown	TSA-D	Brownwood	Big Country	PHR-2/3
-coke	TSA-K	San Angelo	Concho Valley	PHR-9/10
-culberson	TSA-I	El Paso	Border	PHR-9/10
-sterling	TSA-K	San Angelo	Concho Valley	PHR-9/10
-glasscock	TSA-J	San Angelo	"Texas ""J"""	PHR-9/10
-midland	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-ector	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-shelby	TSA-G	Lufkin	Piney Woods	PHR-4/5n
-winkler	TSA-J	Odessa	"Texas ""J"""	PHR-9/10
-tarrant	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-dallas	TSA-E	Dallas	North Central Texas	PHR-2/3
-crosby	TSA-B	Lubbock	BRAC	PHR-9/10
-lubbock	TSA-B	Lubbock	BRAC	PHR-9/10
-archer	TSA-C	Wichita Falls	North Texas	PHR-2/3
-hockley	TSA-B	Lubbock	BRAC	PHR-9/10
-cochran	TSA-B	Lubbock	BRAC	PHR-9/10
-fannin	TSA-E	Paris	North Central Texas	PHR-2/3
-cooke	TSA-E	Wichita Falls	North Central Texas	PHR-2/3
-grayson	TSA-E	Paris	North Central Texas	PHR-2/3
-montague	TSA-C	Wichita Falls	North Texas	PHR-2/3
-lamar	TSA-F	Paris	Northeast Texas	PHR-4/5n
-red_river	TSA-F	Paris	Northeast Texas	PHR-4/5n
-clay	TSA-C	Wichita Falls	North Texas	PHR-2/3
-wichita	TSA-C	Wichita Falls	North Texas	PHR-2/3
-foard	TSA-C	Childress	North Texas	PHR-2/3
-cottle	TSA-B	Childress	BRAC	PHR-9/10
-motley	TSA-B	Childress	BRAC	PHR-9/10
-floyd	TSA-B	Lubbock	BRAC	PHR-9/10
-hale	TSA-B	Lubbock	BRAC	PHR-9/10
-rockwall	TSA-E	Dallas	North Central Texas	PHR-2/3
-rains	TSA-G	Paris	Piney Woods	PHR-4/5n
-wood	TSA-G	Tyler	Piney Woods	PHR-4/5n
-camp	TSA-G	Atlanta	Piney Woods	PHR-4/5n
-stonewall	TSA-D	Abilene	Big Country	PHR-2/3
-haskell	TSA-D	Abilene	Big Country	PHR-2/3
-kent	TSA-B	Abilene	BRAC	PHR-9/10
-throckmorton	TSA-D	Wichita Falls	Big Country	PHR-2/3
-garza	TSA-B	Lubbock	BRAC	PHR-9/10
-lynn	TSA-B	Lubbock	BRAC	PHR-9/10
-young	TSA-C	Wichita Falls	North Texas	PHR-2/3
-terry	TSA-B	Lubbock	BRAC	PHR-9/10
-yoakum	TSA-B	Lubbock	BRAC	PHR-9/10
-cass	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
-collin	TSA-E	Dallas	North Central Texas	PHR-2/3
-denton	TSA-E	Dallas	North Central Texas	PHR-2/3
-wise	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-hopkins	TSA-F	Paris	Northeast Texas	PHR-4/5n
-morris	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
-hunt	TSA-E	Paris	North Central Texas	PHR-2/3
-franklin	TSA-G	Paris	Piney Woods	PHR-4/5n
-jack	TSA-C	Fort Worth	North Texas	PHR-2/3
-titus	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
-delta	TSA-F	Paris	Northeast Texas	PHR-4/5n
-bowie	TSA-F	Atlanta	Northeast Texas	PHR-4/5n
-knox	TSA-D	Childress	Big Country	PHR-2/3
-king	TSA-B	Childress	BRAC	PHR-9/10
-dickens	TSA-B	Childress	BRAC	PHR-9/10
-baylor	TSA-C	Wichita Falls	North Texas	PHR-2/3
-dawson	TSA-B	Lubbock	BRAC	PHR-9/10
-gaines	TSA-B	Lubbock	BRAC	PHR-9/10
-upshur	TSA-G	Atlanta	Piney Woods	PHR-4/5n
-marion	TSA-G	Atlanta	Piney Woods	PHR-4/5n
-palo_pinto	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-parker	TSA-E	Fort Worth	North Central Texas	PHR-2/3
-randall	TSA-A	Amarillo	Panhandle	PHR-1
-deaf_smith	TSA-A	Amarillo	Panhandle	PHR-1
-wheeler	TSA-A	Childress	Panhandle	PHR-1
-gray	TSA-A	Amarillo	Panhandle	PHR-1
-carson	TSA-A	Amarillo	Panhandle	PHR-1
-potter	TSA-A	Amarillo	Panhandle	PHR-1
-oldham	TSA-A	Amarillo	Panhandle	PHR-1
-hemphill	TSA-A	Amarillo	Panhandle	PHR-1
-roberts	TSA-A	Amarillo	Panhandle	PHR-1
-hutchinson	TSA-A	Amarillo	Panhandle	PHR-1
-lamb	TSA-B	Lubbock	BRAC	PHR-9/10
-bailey	TSA-B	Lubbock	BRAC	PHR-9/10
-wilbarger	TSA-C	Wichita Falls	North Texas	PHR-2/3
-hardeman	TSA-C	Childress	North Texas	PHR-2/3
-childress	TSA-A	Childress	Panhandle	PHR-1
-hall	TSA-A	Childress	Panhandle	PHR-1
-briscoe	TSA-A	Childress	Panhandle	PHR-1
-swisher	TSA-A	Lubbock	Panhandle	PHR-1
-castro	TSA-B	Lubbock	BRAC	PHR-9/10
-parmer	TSA-A	Lubbock	Panhandle	PHR-1
-collingsworth	TSA-A	Childress	Panhandle	PHR-1
-donley	TSA-A	Childress	Panhandle	PHR-1
-armstrong	TSA-A	Amarillo	Panhandle	PHR-1
-lipscomb	TSA-A	Amarillo	Panhandle	PHR-1
-ochiltree	TSA-A	Amarillo	Panhandle	PHR-1
-hansford	TSA-A	Amarillo	Panhandle	PHR-1
-sherman	TSA-A	Amarillo	Panhandle	PHR-1
-dallam	TSA-A	Amarillo	Panhandle	PHR-1
-moore	TSA-A	Amarillo	Panhandle	PHR-1
-hartley	TSA-A	Amarillo	Panhandle	PHR-1
-atascosa	texas	texas	texas	texas
-matagorda	texas	texas	texas	texas
-jackson	texas	texas	texas	texas
-de_witt	texas	texas	texas	texas
-wilson	texas	texas	texas	texas
-kinney	texas	texas	texas	texas
-uvalde	texas	texas	texas	texas
-lavaca	texas	texas	texas	texas
-brazoria	texas	texas	texas	texas
-wharton	texas	texas	texas	texas
-medina	texas	texas	texas	texas
-galveston	texas	texas	texas	texas
-bexar	texas	texas	texas	texas
-gonzales	texas	texas	texas	texas
-fort_bend	texas	texas	texas	texas
-guadalupe	texas	texas	texas	texas
-bandera	texas	texas	texas	texas
-colorado	texas	texas	texas	texas
-chambers	texas	texas	texas	texas
-comal	texas	texas	texas	texas
-real	texas	texas	texas	texas
-caldwell	texas	texas	texas	texas
-kendall	texas	texas	texas	texas
-austin	texas	texas	texas	texas
-fayette	texas	texas	texas	texas
-harris	texas	texas	texas	texas
-edwards	texas	texas	texas	texas
-kerr	texas	texas	texas	texas
-val_verde	texas	texas	texas	texas
-waller	texas	texas	texas	texas
-jefferson	texas	texas	texas	texas
-hays	texas	texas	texas	texas
-cameron	texas	texas	texas	texas
-willacy	texas	texas	texas	texas
-starr	texas	texas	texas	texas
-hidalgo	texas	texas	texas	texas
-brooks	texas	texas	texas	texas
-kenedy	texas	texas	texas	texas
-zapata	texas	texas	texas	texas
-jim_hogg	texas	texas	texas	texas
-kleberg	texas	texas	texas	texas
-nueces	texas	texas	texas	texas
-duval	texas	texas	texas	texas
-jim_wells	texas	texas	texas	texas
-san_patricio	texas	texas	texas	texas
-webb	texas	texas	texas	texas
-aransas	texas	texas	texas	texas
-refugio	texas	texas	texas	texas
-dimmit	texas	texas	texas	texas
-la_salle	texas	texas	texas	texas
-mcmullen	texas	texas	texas	texas
-bee	texas	texas	texas	texas
-calhoun	texas	texas	texas	texas
-live_oak	texas	texas	texas	texas
-goliad	texas	texas	texas	texas
-maverick	texas	texas	texas	texas
-zavala	texas	texas	texas	texas
-frio	texas	texas	texas	texas
-victoria	texas	texas	texas	texas
-karnes	texas	texas	texas	texas
-hudspeth	texas	texas	texas	texas
-anderson	texas	texas	texas	texas
-el_paso	texas	texas	texas	texas
-bosque	texas	texas	texas	texas
-cherokee	texas	texas	texas	texas
-comanche	texas	texas	texas	texas
-hill	texas	texas	texas	texas
-somervell	texas	texas	texas	texas
-navarro	texas	texas	texas	texas
-henderson	texas	texas	texas	texas
-callahan	texas	texas	texas	texas
-rusk	texas	texas	texas	texas
-eastland	texas	texas	texas	texas
-taylor	texas	texas	texas	texas
-erath	texas	texas	texas	texas
-nolan	texas	texas	texas	texas
-panola	texas	texas	texas	texas
-mitchell	texas	texas	texas	texas
-howard	texas	texas	texas	texas
-martin	texas	texas	texas	texas
-andrews	texas	texas	texas	texas
-hood	texas	texas	texas	texas
-johnson	texas	texas	texas	texas
-ellis	texas	texas	texas	texas
-smith	texas	texas	texas	texas
-gregg	texas	texas	texas	texas
-kaufman	texas	texas	texas	texas
-harrison	texas	texas	texas	texas
-van_zandt	texas	texas	texas	texas
-shackelford	texas	texas	texas	texas
-jones	texas	texas	texas	texas
-stephens	texas	texas	texas	texas
-fisher	texas	texas	texas	texas
-borden	texas	texas	texas	texas
-scurry	texas	texas	texas	texas
-orange	texas	texas	texas	texas
-bastrop	texas	texas	texas	texas
-washington	texas	texas	texas	texas
-gillespie	texas	texas	texas	texas
-blanco	texas	texas	texas	texas
-lee	texas	texas	texas	texas
-liberty	texas	texas	texas	texas
-travis	texas	texas	texas	texas
-hardin	texas	texas	texas	texas
-terrell	texas	texas	texas	texas
-montgomery	texas	texas	texas	texas
-sutton	texas	texas	texas	texas
-kimble	texas	texas	texas	texas
-brewster	texas	texas	texas	texas
-presidio	texas	texas	texas	texas
-burleson	texas	texas	texas	texas
-williamson	texas	texas	texas	texas
-grimes	texas	texas	texas	texas
-llano	texas	texas	texas	texas
-mason	texas	texas	texas	texas
-san_jacinto	texas	texas	texas	texas
-brazos	texas	texas	texas	texas
-burnet	texas	texas	texas	texas
-menard	texas	texas	texas	texas
-schleicher	texas	texas	texas	texas
-crockett	texas	texas	texas	texas
-walker	texas	texas	texas	texas
-milam	texas	texas	texas	texas
-madison	texas	texas	texas	texas
-jeff_davis	texas	texas	texas	texas
-tyler	texas	texas	texas	texas
-polk	texas	texas	texas	texas
-jasper	texas	texas	texas	texas
-bell	texas	texas	texas	texas
-newton	texas	texas	texas	texas
-pecos	texas	texas	texas	texas
-robertson	texas	texas	texas	texas
-lampasas	texas	texas	texas	texas
-trinity	texas	texas	texas	texas
-san_saba	texas	texas	texas	texas
-mcculloch	texas	texas	texas	texas
-irion	texas	texas	texas	texas
-falls	texas	texas	texas	texas
-concho	texas	texas	texas	texas
-angelina	texas	texas	texas	texas
-reagan	texas	texas	texas	texas
-upton	texas	texas	texas	texas
-houston	texas	texas	texas	texas
-crane	texas	texas	texas	texas
-ward	texas	texas	texas	texas
-tom_green	texas	texas	texas	texas
-leon	texas	texas	texas	texas
-coryell	texas	texas	texas	texas
-mills	texas	texas	texas	texas
-sabine	texas	texas	texas	texas
-san_augustine	texas	texas	texas	texas
-limestone	texas	texas	texas	texas
-mclennan	texas	texas	texas	texas
-nacogdoches	texas	texas	texas	texas
-hamilton	texas	texas	texas	texas
-loving	texas	texas	texas	texas
-reeves	texas	texas	texas	texas
-freestone	texas	texas	texas	texas
-coleman	texas	texas	texas	texas
-runnels	texas	texas	texas	texas
-brown	texas	texas	texas	texas
-coke	texas	texas	texas	texas
-culberson	texas	texas	texas	texas
-sterling	texas	texas	texas	texas
-glasscock	texas	texas	texas	texas
-midland	texas	texas	texas	texas
-ector	texas	texas	texas	texas
-shelby	texas	texas	texas	texas
-winkler	texas	texas	texas	texas
-tarrant	texas	texas	texas	texas
-dallas	texas	texas	texas	texas
-crosby	texas	texas	texas	texas
-lubbock	texas	texas	texas	texas
-archer	texas	texas	texas	texas
-hockley	texas	texas	texas	texas
-cochran	texas	texas	texas	texas
-fannin	texas	texas	texas	texas
-cooke	texas	texas	texas	texas
-grayson	texas	texas	texas	texas
-montague	texas	texas	texas	texas
-lamar	texas	texas	texas	texas
-red_river	texas	texas	texas	texas
-clay	texas	texas	texas	texas
-wichita	texas	texas	texas	texas
-foard	texas	texas	texas	texas
-cottle	texas	texas	texas	texas
-motley	texas	texas	texas	texas
-floyd	texas	texas	texas	texas
-hale	texas	texas	texas	texas
-rockwall	texas	texas	texas	texas
-rains	texas	texas	texas	texas
-wood	texas	texas	texas	texas
-camp	texas	texas	texas	texas
-stonewall	texas	texas	texas	texas
-haskell	texas	texas	texas	texas
-kent	texas	texas	texas	texas
-throckmorton	texas	texas	texas	texas
-garza	texas	texas	texas	texas
-lynn	texas	texas	texas	texas
-young	texas	texas	texas	texas
-terry	texas	texas	texas	texas
-yoakum	texas	texas	texas	texas
-cass	texas	texas	texas	texas
-collin	texas	texas	texas	texas
-denton	texas	texas	texas	texas
-wise	texas	texas	texas	texas
-hopkins	texas	texas	texas	texas
-morris	texas	texas	texas	texas
-hunt	texas	texas	texas	texas
-franklin	texas	texas	texas	texas
-jack	texas	texas	texas	texas
-titus	texas	texas	texas	texas
-delta	texas	texas	texas	texas
-bowie	texas	texas	texas	texas
-knox	texas	texas	texas	texas
-king	texas	texas	texas	texas
-dickens	texas	texas	texas	texas
-baylor	texas	texas	texas	texas
-dawson	texas	texas	texas	texas
-gaines	texas	texas	texas	texas
-upshur	texas	texas	texas	texas
-marion	texas	texas	texas	texas
-palo_pinto	texas	texas	texas	texas
-parker	texas	texas	texas	texas
-randall	texas	texas	texas	texas
-deaf_smith	texas	texas	texas	texas
-wheeler	texas	texas	texas	texas
-gray	texas	texas	texas	texas
-carson	texas	texas	texas	texas
-potter	texas	texas	texas	texas
-oldham	texas	texas	texas	texas
-hemphill	texas	texas	texas	texas
-roberts	texas	texas	texas	texas
-hutchinson	texas	texas	texas	texas
-lamb	texas	texas	texas	texas
-bailey	texas	texas	texas	texas
-wilbarger	texas	texas	texas	texas
-hardeman	texas	texas	texas	texas
-childress	texas	texas	texas	texas
-hall	texas	texas	texas	texas
-briscoe	texas	texas	texas	texas
-swisher	texas	texas	texas	texas
-castro	texas	texas	texas	texas
-parmer	texas	texas	texas	texas
-collingsworth	texas	texas	texas	texas
-donley	texas	texas	texas	texas
-armstrong	texas	texas	texas	texas
-lipscomb	texas	texas	texas	texas
-ochiltree	texas	texas	texas	texas
-hansford	texas	texas	texas	texas
-sherman	texas	texas	texas	texas
-dallam	texas	texas	texas	texas
-moore	texas	texas	texas	texas
-hartley	texas	texas	texas	texas
+atascosa	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+matagorda	TSA-Q	yoakum	southeast_texas	PHR-6/5s
+jackson	TSA-S	yoakum	golden_crescent	PHR-8
+de_witt	TSA-S	yoakum	golden_crescent	PHR-8
+wilson	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+kinney	TSA-P	laredo	southwest_texas_rac	PHR-8
+uvalde	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+lavaca	TSA-S	yoakum	golden_crescent	PHR-8
+brazoria	TSA-R	houston	east_texas_gulf_coast	PHR-6/5s
+wharton	TSA-Q	yoakum	southeast_texas	PHR-6/5s
+medina	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+galveston	TSA-R	houston	east_texas_gulf_coast	PHR-6/5s
+bexar	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+gonzales	TSA-P	yoakum	southwest_texas_rac	PHR-8
+fort_bend	TSA-Q	houston	southeast_texas	PHR-6/5s
+guadalupe	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+bandera	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+colorado	TSA-Q	yoakum	southeast_texas	PHR-6/5s
+chambers	TSA-R	beaumont	east_texas_gulf_coast	PHR-6/5s
+comal	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+real	TSA-P	san_angelo	southwest_texas_rac	PHR-8
+caldwell	TSA-O	austin	capital_area_trauma	PHR-7
+kendall	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+austin	TSA-Q	yoakum	southeast_texas	PHR-6/5s
+fayette	TSA-O	yoakum	capital_area_trauma	PHR-7
+harris	TSA-Q	houston	southeast_texas	PHR-6/5s
+edwards	TSA-P	san_angelo	southwest_texas_rac	PHR-8
+kerr	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+val_verde	TSA-P	laredo	southwest_texas_rac	PHR-8
+waller	TSA-Q	houston	southeast_texas	PHR-6/5s
+jefferson	TSA-R	beaumont	east_texas_gulf_coast	PHR-6/5s
+hays	TSA-O	austin	capital_area_trauma	PHR-7
+cameron	TSA-V	pharr	lower_rio_grande_valley	PHR-11
+willacy	TSA-V	pharr	lower_rio_grande_valley	PHR-11
+starr	TSA-V	pharr	lower_rio_grande_valley	PHR-11
+hidalgo	TSA-V	pharr	lower_rio_grande_valley	PHR-11
+brooks	TSA-U	pharr	coastal_bend	PHR-11
+kenedy	TSA-U	pharr	coastal_bend	PHR-11
+zapata	TSA-T	pharr	seven_flags	PHR-11
+jim_hogg	TSA-T	pharr	seven_flags	PHR-11
+kleberg	TSA-U	corpus_christi	coastal_bend	PHR-11
+nueces	TSA-U	corpus_christi	coastal_bend	PHR-11
+duval	TSA-U	laredo	coastal_bend	PHR-11
+jim_wells	TSA-U	corpus_christi	coastal_bend	PHR-11
+san_patricio	TSA-U	corpus_christi	coastal_bend	PHR-11
+webb	TSA-T	laredo	seven_flags	PHR-11
+aransas	TSA-U	corpus_christi	coastal_bend	PHR-11
+refugio	TSA-U	corpus_christi	coastal_bend	PHR-11
+dimmit	TSA-P	laredo	southwest_texas_rac	PHR-8
+la_salle	TSA-P	laredo	southwest_texas_rac	PHR-8
+mcmullen	TSA-U	san_antonio	coastal_bend	PHR-11
+bee	TSA-U	corpus_christi	coastal_bend	PHR-11
+calhoun	TSA-S	yoakum	golden_crescent	PHR-8
+live_oak	TSA-U	corpus_christi	coastal_bend	PHR-11
+goliad	TSA-S	corpus_christi	golden_crescent	PHR-8
+maverick	TSA-P	laredo	southwest_texas_rac	PHR-8
+zavala	TSA-P	laredo	southwest_texas_rac	PHR-8
+frio	TSA-P	san_antonio	southwest_texas_rac	PHR-8
+victoria	TSA-S	yoakum	golden_crescent	PHR-8
+karnes	TSA-P	corpus_christi	southwest_texas_rac	PHR-8
+hudspeth	TSA-I	el_paso	border	PHR-9/10
+anderson	TSA-G	tyler	piney_woods	PHR-4/5n
+el_paso	TSA-I	el_paso	border	PHR-9/10
+bosque	TSA-M	waco	heart_of_texas	PHR-7
+cherokee	TSA-G	tyler	piney_woods	PHR-4/5n
+comanche	TSA-D	brownwood	big_country	PHR-2/3
+hill	TSA-M	waco	heart_of_texas	PHR-7
+somervell	TSA-E	fort_worth	north_central_texas	PHR-2/3
+navarro	TSA-E	dallas	north_central_texas	PHR-2/3
+henderson	TSA-G	tyler	piney_woods	PHR-4/5n
+callahan	TSA-D	abilene	big_country	PHR-2/3
+rusk	TSA-G	tyler	piney_woods	PHR-4/5n
+eastland	TSA-D	brownwood	big_country	PHR-2/3
+taylor	TSA-D	abilene	big_country	PHR-2/3
+erath	TSA-E	fort_worth	north_central_texas	PHR-2/3
+nolan	TSA-D	abilene	big_country	PHR-2/3
+panola	TSA-G	atlanta	piney_woods	PHR-4/5n
+mitchell	TSA-D	abilene	big_country	PHR-2/3
+howard	TSA-J	abilene	"texas_""j"""	PHR-9/10
+martin	TSA-J	odessa	"texas_""j"""	PHR-9/10
+andrews	TSA-J	odessa	"texas_""j"""	PHR-9/10
+hood	TSA-E	fort_worth	north_central_texas	PHR-2/3
+johnson	TSA-E	fort_worth	north_central_texas	PHR-2/3
+ellis	TSA-E	dallas	north_central_texas	PHR-2/3
+smith	TSA-G	tyler	piney_woods	PHR-4/5n
+gregg	TSA-G	tyler	piney_woods	PHR-4/5n
+kaufman	TSA-E	dallas	north_central_texas	PHR-2/3
+harrison	TSA-G	atlanta	piney_woods	PHR-4/5n
+van_zandt	TSA-G	tyler	piney_woods	PHR-4/5n
+shackelford	TSA-D	abilene	big_country	PHR-2/3
+jones	TSA-D	abilene	big_country	PHR-2/3
+stephens	TSA-D	brownwood	big_country	PHR-2/3
+fisher	TSA-D	abilene	big_country	PHR-2/3
+borden	TSA-B	abilene	brac	PHR-9/10
+scurry	TSA-B	abilene	brac	PHR-9/10
+orange	TSA-R	beaumont	east_texas_gulf_coast	PHR-6/5s
+bastrop	TSA-O	austin	capital_area_trauma	PHR-7
+washington	TSA-N	bryan	brazos_valley	PHR-7
+gillespie	TSA-P	austin	southwest_texas_rac	PHR-8
+blanco	TSA-O	austin	capital_area_trauma	PHR-7
+lee	TSA-O	austin	capital_area_trauma	PHR-7
+liberty	TSA-R	beaumont	east_texas_gulf_coast	PHR-6/5s
+travis	TSA-O	austin	capital_area_trauma	PHR-7
+hardin	TSA-R	beaumont	east_texas_gulf_coast	PHR-6/5s
+terrell	TSA-J	odessa	"texas_""j"""	PHR-9/10
+montgomery	TSA-Q	houston	southeast_texas	PHR-6/5s
+sutton	TSA-K	san_angelo	concho_valley	PHR-9/10
+kimble	TSA-K	san_angelo	concho_valley	PHR-9/10
+brewster	TSA-J	el_paso	"texas_""j"""	PHR-9/10
+presidio	TSA-J	el_paso	"texas_""j"""	PHR-9/10
+burleson	TSA-N	bryan	brazos_valley	PHR-7
+williamson	TSA-O	austin	capital_area_trauma	PHR-7
+grimes	TSA-N	bryan	brazos_valley	PHR-7
+llano	TSA-O	austin	capital_area_trauma	PHR-7
+mason	TSA-K	austin	concho_valley	PHR-9/10
+san_jacinto	TSA-H	lufkin	deep_east_texas	PHR-4/5n
+brazos	TSA-N	bryan	brazos_valley	PHR-7
+burnet	TSA-O	austin	capital_area_trauma	PHR-7
+menard	TSA-K	san_angelo	concho_valley	PHR-9/10
+schleicher	TSA-K	san_angelo	concho_valley	PHR-9/10
+crockett	TSA-K	san_angelo	concho_valley	PHR-9/10
+walker	TSA-Q	bryan	southeast_texas	PHR-6/5s
+milam	TSA-L	bryan	central_texas	PHR-7
+madison	TSA-N	bryan	brazos_valley	PHR-7
+jeff_davis	TSA-J	el_paso	"texas_""j"""	PHR-9/10
+tyler	TSA-H	beaumont	deep_east_texas	PHR-4/5n
+polk	TSA-H	lufkin	deep_east_texas	PHR-4/5n
+jasper	TSA-R	beaumont	east_texas_gulf_coast	PHR-6/5s
+bell	TSA-L	waco	central_texas	PHR-7
+newton	TSA-R	beaumont	east_texas_gulf_coast	PHR-6/5s
+pecos	TSA-J	odessa	"texas_""j"""	PHR-9/10
+robertson	TSA-N	bryan	brazos_valley	PHR-7
+lampasas	TSA-L	brownwood	central_texas	PHR-7
+trinity	TSA-G	lufkin	piney_woods	PHR-4/5n
+san_saba	TSA-O	brownwood	capital_area_trauma	PHR-7
+mcculloch	TSA-K	brownwood	concho_valley	PHR-9/10
+irion	TSA-K	san_angelo	concho_valley	PHR-9/10
+falls	TSA-M	waco	heart_of_texas	PHR-7
+concho	TSA-K	san_angelo	concho_valley	PHR-9/10
+angelina	TSA-H	lufkin	deep_east_texas	PHR-4/5n
+reagan	TSA-K	san_angelo	concho_valley	PHR-9/10
+upton	TSA-J	odessa	"texas_""j"""	PHR-9/10
+houston	TSA-G	lufkin	piney_woods	PHR-4/5n
+crane	TSA-J	odessa	"texas_""j"""	PHR-9/10
+ward	TSA-J	odessa	"texas_""j"""	PHR-9/10
+tom_green	TSA-K	san_angelo	concho_valley	PHR-9/10
+leon	TSA-N	bryan	brazos_valley	PHR-7
+coryell	TSA-L	waco	central_texas	PHR-7
+mills	TSA-L	brownwood	central_texas	PHR-7
+sabine	TSA-H	lufkin	deep_east_texas	PHR-4/5n
+san_augustine	TSA-H	lufkin	deep_east_texas	PHR-4/5n
+limestone	TSA-M	waco	heart_of_texas	PHR-7
+mclennan	TSA-M	waco	heart_of_texas	PHR-7
+nacogdoches	TSA-H	lufkin	deep_east_texas	PHR-4/5n
+hamilton	TSA-L	waco	central_texas	PHR-7
+loving	TSA-J	odessa	"texas_""j"""	PHR-9/10
+reeves	TSA-J	odessa	"texas_""j"""	PHR-9/10
+freestone	TSA-G	bryan	piney_woods	PHR-4/5n
+coleman	TSA-D	brownwood	big_country	PHR-2/3
+runnels	TSA-K	san_angelo	concho_valley	PHR-9/10
+brown	TSA-D	brownwood	big_country	PHR-2/3
+coke	TSA-K	san_angelo	concho_valley	PHR-9/10
+culberson	TSA-I	el_paso	border	PHR-9/10
+sterling	TSA-K	san_angelo	concho_valley	PHR-9/10
+glasscock	TSA-J	san_angelo	"texas_""j"""	PHR-9/10
+midland	TSA-J	odessa	"texas_""j"""	PHR-9/10
+ector	TSA-J	odessa	"texas_""j"""	PHR-9/10
+shelby	TSA-G	lufkin	piney_woods	PHR-4/5n
+winkler	TSA-J	odessa	"texas_""j"""	PHR-9/10
+tarrant	TSA-E	fort_worth	north_central_texas	PHR-2/3
+dallas	TSA-E	dallas	north_central_texas	PHR-2/3
+crosby	TSA-B	lubbock	brac	PHR-9/10
+lubbock	TSA-B	lubbock	brac	PHR-9/10
+archer	TSA-C	wichita_falls	north_texas	PHR-2/3
+hockley	TSA-B	lubbock	brac	PHR-9/10
+cochran	TSA-B	lubbock	brac	PHR-9/10
+fannin	TSA-E	paris	north_central_texas	PHR-2/3
+cooke	TSA-E	wichita_falls	north_central_texas	PHR-2/3
+grayson	TSA-E	paris	north_central_texas	PHR-2/3
+montague	TSA-C	wichita_falls	north_texas	PHR-2/3
+lamar	TSA-F	paris	northeast_texas	PHR-4/5n
+red_river	TSA-F	paris	northeast_texas	PHR-4/5n
+clay	TSA-C	wichita_falls	north_texas	PHR-2/3
+wichita	TSA-C	wichita_falls	north_texas	PHR-2/3
+foard	TSA-C	childress	north_texas	PHR-2/3
+cottle	TSA-B	childress	brac	PHR-9/10
+motley	TSA-B	childress	brac	PHR-9/10
+floyd	TSA-B	lubbock	brac	PHR-9/10
+hale	TSA-B	lubbock	brac	PHR-9/10
+rockwall	TSA-E	dallas	north_central_texas	PHR-2/3
+rains	TSA-G	paris	piney_woods	PHR-4/5n
+wood	TSA-G	tyler	piney_woods	PHR-4/5n
+camp	TSA-G	atlanta	piney_woods	PHR-4/5n
+stonewall	TSA-D	abilene	big_country	PHR-2/3
+haskell	TSA-D	abilene	big_country	PHR-2/3
+kent	TSA-B	abilene	brac	PHR-9/10
+throckmorton	TSA-D	wichita_falls	big_country	PHR-2/3
+garza	TSA-B	lubbock	brac	PHR-9/10
+lynn	TSA-B	lubbock	brac	PHR-9/10
+young	TSA-C	wichita_falls	north_texas	PHR-2/3
+terry	TSA-B	lubbock	brac	PHR-9/10
+yoakum	TSA-B	lubbock	brac	PHR-9/10
+cass	TSA-F	atlanta	northeast_texas	PHR-4/5n
+collin	TSA-E	dallas	north_central_texas	PHR-2/3
+denton	TSA-E	dallas	north_central_texas	PHR-2/3
+wise	TSA-E	fort_worth	north_central_texas	PHR-2/3
+hopkins	TSA-F	paris	northeast_texas	PHR-4/5n
+morris	TSA-F	atlanta	northeast_texas	PHR-4/5n
+hunt	TSA-E	paris	north_central_texas	PHR-2/3
+franklin	TSA-G	paris	piney_woods	PHR-4/5n
+jack	TSA-C	fort_worth	north_texas	PHR-2/3
+titus	TSA-F	atlanta	northeast_texas	PHR-4/5n
+delta	TSA-F	paris	northeast_texas	PHR-4/5n
+bowie	TSA-F	atlanta	northeast_texas	PHR-4/5n
+knox	TSA-D	childress	big_country	PHR-2/3
+king	TSA-B	childress	brac	PHR-9/10
+dickens	TSA-B	childress	brac	PHR-9/10
+baylor	TSA-C	wichita_falls	north_texas	PHR-2/3
+dawson	TSA-B	lubbock	brac	PHR-9/10
+gaines	TSA-B	lubbock	brac	PHR-9/10
+upshur	TSA-G	atlanta	piney_woods	PHR-4/5n
+marion	TSA-G	atlanta	piney_woods	PHR-4/5n
+palo_pinto	TSA-E	fort_worth	north_central_texas	PHR-2/3
+parker	TSA-E	fort_worth	north_central_texas	PHR-2/3
+randall	TSA-A	amarillo	panhandle	PHR-1
+deaf_smith	TSA-A	amarillo	panhandle	PHR-1
+wheeler	TSA-A	childress	panhandle	PHR-1
+gray	TSA-A	amarillo	panhandle	PHR-1
+carson	TSA-A	amarillo	panhandle	PHR-1
+potter	TSA-A	amarillo	panhandle	PHR-1
+oldham	TSA-A	amarillo	panhandle	PHR-1
+hemphill	TSA-A	amarillo	panhandle	PHR-1
+roberts	TSA-A	amarillo	panhandle	PHR-1
+hutchinson	TSA-A	amarillo	panhandle	PHR-1
+lamb	TSA-B	lubbock	brac	PHR-9/10
+bailey	TSA-B	lubbock	brac	PHR-9/10
+wilbarger	TSA-C	wichita_falls	north_texas	PHR-2/3
+hardeman	TSA-C	childress	north_texas	PHR-2/3
+childress	TSA-A	childress	panhandle	PHR-1
+hall	TSA-A	childress	panhandle	PHR-1
+briscoe	TSA-A	childress	panhandle	PHR-1
+swisher	TSA-A	lubbock	panhandle	PHR-1
+castro	TSA-B	lubbock	brac	PHR-9/10
+parmer	TSA-A	lubbock	panhandle	PHR-1
+collingsworth	TSA-A	childress	panhandle	PHR-1
+donley	TSA-A	childress	panhandle	PHR-1
+armstrong	TSA-A	amarillo	panhandle	PHR-1
+lipscomb	TSA-A	amarillo	panhandle	PHR-1
+ochiltree	TSA-A	amarillo	panhandle	PHR-1
+hansford	TSA-A	amarillo	panhandle	PHR-1
+sherman	TSA-A	amarillo	panhandle	PHR-1
+dallam	TSA-A	amarillo	panhandle	PHR-1
+moore	TSA-A	amarillo	panhandle	PHR-1
+hartley	TSA-A	amarillo	panhandle	PHR-1
+atascosa	TEXAS	TEXAS	TEXAS	TEXAS
+matagorda	TEXAS	TEXAS	TEXAS	TEXAS
+jackson	TEXAS	TEXAS	TEXAS	TEXAS
+de_witt	TEXAS	TEXAS	TEXAS	TEXAS
+wilson	TEXAS	TEXAS	TEXAS	TEXAS
+kinney	TEXAS	TEXAS	TEXAS	TEXAS
+uvalde	TEXAS	TEXAS	TEXAS	TEXAS
+lavaca	TEXAS	TEXAS	TEXAS	TEXAS
+brazoria	TEXAS	TEXAS	TEXAS	TEXAS
+wharton	TEXAS	TEXAS	TEXAS	TEXAS
+medina	TEXAS	TEXAS	TEXAS	TEXAS
+galveston	TEXAS	TEXAS	TEXAS	TEXAS
+bexar	TEXAS	TEXAS	TEXAS	TEXAS
+gonzales	TEXAS	TEXAS	TEXAS	TEXAS
+fort_bend	TEXAS	TEXAS	TEXAS	TEXAS
+guadalupe	TEXAS	TEXAS	TEXAS	TEXAS
+bandera	TEXAS	TEXAS	TEXAS	TEXAS
+colorado	TEXAS	TEXAS	TEXAS	TEXAS
+chambers	TEXAS	TEXAS	TEXAS	TEXAS
+comal	TEXAS	TEXAS	TEXAS	TEXAS
+real	TEXAS	TEXAS	TEXAS	TEXAS
+caldwell	TEXAS	TEXAS	TEXAS	TEXAS
+kendall	TEXAS	TEXAS	TEXAS	TEXAS
+austin	TEXAS	TEXAS	TEXAS	TEXAS
+fayette	TEXAS	TEXAS	TEXAS	TEXAS
+harris	TEXAS	TEXAS	TEXAS	TEXAS
+edwards	TEXAS	TEXAS	TEXAS	TEXAS
+kerr	TEXAS	TEXAS	TEXAS	TEXAS
+val_verde	TEXAS	TEXAS	TEXAS	TEXAS
+waller	TEXAS	TEXAS	TEXAS	TEXAS
+jefferson	TEXAS	TEXAS	TEXAS	TEXAS
+hays	TEXAS	TEXAS	TEXAS	TEXAS
+cameron	TEXAS	TEXAS	TEXAS	TEXAS
+willacy	TEXAS	TEXAS	TEXAS	TEXAS
+starr	TEXAS	TEXAS	TEXAS	TEXAS
+hidalgo	TEXAS	TEXAS	TEXAS	TEXAS
+brooks	TEXAS	TEXAS	TEXAS	TEXAS
+kenedy	TEXAS	TEXAS	TEXAS	TEXAS
+zapata	TEXAS	TEXAS	TEXAS	TEXAS
+jim_hogg	TEXAS	TEXAS	TEXAS	TEXAS
+kleberg	TEXAS	TEXAS	TEXAS	TEXAS
+nueces	TEXAS	TEXAS	TEXAS	TEXAS
+duval	TEXAS	TEXAS	TEXAS	TEXAS
+jim_wells	TEXAS	TEXAS	TEXAS	TEXAS
+san_patricio	TEXAS	TEXAS	TEXAS	TEXAS
+webb	TEXAS	TEXAS	TEXAS	TEXAS
+aransas	TEXAS	TEXAS	TEXAS	TEXAS
+refugio	TEXAS	TEXAS	TEXAS	TEXAS
+dimmit	TEXAS	TEXAS	TEXAS	TEXAS
+la_salle	TEXAS	TEXAS	TEXAS	TEXAS
+mcmullen	TEXAS	TEXAS	TEXAS	TEXAS
+bee	TEXAS	TEXAS	TEXAS	TEXAS
+calhoun	TEXAS	TEXAS	TEXAS	TEXAS
+live_oak	TEXAS	TEXAS	TEXAS	TEXAS
+goliad	TEXAS	TEXAS	TEXAS	TEXAS
+maverick	TEXAS	TEXAS	TEXAS	TEXAS
+zavala	TEXAS	TEXAS	TEXAS	TEXAS
+frio	TEXAS	TEXAS	TEXAS	TEXAS
+victoria	TEXAS	TEXAS	TEXAS	TEXAS
+karnes	TEXAS	TEXAS	TEXAS	TEXAS
+hudspeth	TEXAS	TEXAS	TEXAS	TEXAS
+anderson	TEXAS	TEXAS	TEXAS	TEXAS
+el_paso	TEXAS	TEXAS	TEXAS	TEXAS
+bosque	TEXAS	TEXAS	TEXAS	TEXAS
+cherokee	TEXAS	TEXAS	TEXAS	TEXAS
+comanche	TEXAS	TEXAS	TEXAS	TEXAS
+hill	TEXAS	TEXAS	TEXAS	TEXAS
+somervell	TEXAS	TEXAS	TEXAS	TEXAS
+navarro	TEXAS	TEXAS	TEXAS	TEXAS
+henderson	TEXAS	TEXAS	TEXAS	TEXAS
+callahan	TEXAS	TEXAS	TEXAS	TEXAS
+rusk	TEXAS	TEXAS	TEXAS	TEXAS
+eastland	TEXAS	TEXAS	TEXAS	TEXAS
+taylor	TEXAS	TEXAS	TEXAS	TEXAS
+erath	TEXAS	TEXAS	TEXAS	TEXAS
+nolan	TEXAS	TEXAS	TEXAS	TEXAS
+panola	TEXAS	TEXAS	TEXAS	TEXAS
+mitchell	TEXAS	TEXAS	TEXAS	TEXAS
+howard	TEXAS	TEXAS	TEXAS	TEXAS
+martin	TEXAS	TEXAS	TEXAS	TEXAS
+andrews	TEXAS	TEXAS	TEXAS	TEXAS
+hood	TEXAS	TEXAS	TEXAS	TEXAS
+johnson	TEXAS	TEXAS	TEXAS	TEXAS
+ellis	TEXAS	TEXAS	TEXAS	TEXAS
+smith	TEXAS	TEXAS	TEXAS	TEXAS
+gregg	TEXAS	TEXAS	TEXAS	TEXAS
+kaufman	TEXAS	TEXAS	TEXAS	TEXAS
+harrison	TEXAS	TEXAS	TEXAS	TEXAS
+van_zandt	TEXAS	TEXAS	TEXAS	TEXAS
+shackelford	TEXAS	TEXAS	TEXAS	TEXAS
+jones	TEXAS	TEXAS	TEXAS	TEXAS
+stephens	TEXAS	TEXAS	TEXAS	TEXAS
+fisher	TEXAS	TEXAS	TEXAS	TEXAS
+borden	TEXAS	TEXAS	TEXAS	TEXAS
+scurry	TEXAS	TEXAS	TEXAS	TEXAS
+orange	TEXAS	TEXAS	TEXAS	TEXAS
+bastrop	TEXAS	TEXAS	TEXAS	TEXAS
+washington	TEXAS	TEXAS	TEXAS	TEXAS
+gillespie	TEXAS	TEXAS	TEXAS	TEXAS
+blanco	TEXAS	TEXAS	TEXAS	TEXAS
+lee	TEXAS	TEXAS	TEXAS	TEXAS
+liberty	TEXAS	TEXAS	TEXAS	TEXAS
+travis	TEXAS	TEXAS	TEXAS	TEXAS
+hardin	TEXAS	TEXAS	TEXAS	TEXAS
+terrell	TEXAS	TEXAS	TEXAS	TEXAS
+montgomery	TEXAS	TEXAS	TEXAS	TEXAS
+sutton	TEXAS	TEXAS	TEXAS	TEXAS
+kimble	TEXAS	TEXAS	TEXAS	TEXAS
+brewster	TEXAS	TEXAS	TEXAS	TEXAS
+presidio	TEXAS	TEXAS	TEXAS	TEXAS
+burleson	TEXAS	TEXAS	TEXAS	TEXAS
+williamson	TEXAS	TEXAS	TEXAS	TEXAS
+grimes	TEXAS	TEXAS	TEXAS	TEXAS
+llano	TEXAS	TEXAS	TEXAS	TEXAS
+mason	TEXAS	TEXAS	TEXAS	TEXAS
+san_jacinto	TEXAS	TEXAS	TEXAS	TEXAS
+brazos	TEXAS	TEXAS	TEXAS	TEXAS
+burnet	TEXAS	TEXAS	TEXAS	TEXAS
+menard	TEXAS	TEXAS	TEXAS	TEXAS
+schleicher	TEXAS	TEXAS	TEXAS	TEXAS
+crockett	TEXAS	TEXAS	TEXAS	TEXAS
+walker	TEXAS	TEXAS	TEXAS	TEXAS
+milam	TEXAS	TEXAS	TEXAS	TEXAS
+madison	TEXAS	TEXAS	TEXAS	TEXAS
+jeff_davis	TEXAS	TEXAS	TEXAS	TEXAS
+tyler	TEXAS	TEXAS	TEXAS	TEXAS
+polk	TEXAS	TEXAS	TEXAS	TEXAS
+jasper	TEXAS	TEXAS	TEXAS	TEXAS
+bell	TEXAS	TEXAS	TEXAS	TEXAS
+newton	TEXAS	TEXAS	TEXAS	TEXAS
+pecos	TEXAS	TEXAS	TEXAS	TEXAS
+robertson	TEXAS	TEXAS	TEXAS	TEXAS
+lampasas	TEXAS	TEXAS	TEXAS	TEXAS
+trinity	TEXAS	TEXAS	TEXAS	TEXAS
+san_saba	TEXAS	TEXAS	TEXAS	TEXAS
+mcculloch	TEXAS	TEXAS	TEXAS	TEXAS
+irion	TEXAS	TEXAS	TEXAS	TEXAS
+falls	TEXAS	TEXAS	TEXAS	TEXAS
+concho	TEXAS	TEXAS	TEXAS	TEXAS
+angelina	TEXAS	TEXAS	TEXAS	TEXAS
+reagan	TEXAS	TEXAS	TEXAS	TEXAS
+upton	TEXAS	TEXAS	TEXAS	TEXAS
+houston	TEXAS	TEXAS	TEXAS	TEXAS
+crane	TEXAS	TEXAS	TEXAS	TEXAS
+ward	TEXAS	TEXAS	TEXAS	TEXAS
+tom_green	TEXAS	TEXAS	TEXAS	TEXAS
+leon	TEXAS	TEXAS	TEXAS	TEXAS
+coryell	TEXAS	TEXAS	TEXAS	TEXAS
+mills	TEXAS	TEXAS	TEXAS	TEXAS
+sabine	TEXAS	TEXAS	TEXAS	TEXAS
+san_augustine	TEXAS	TEXAS	TEXAS	TEXAS
+limestone	TEXAS	TEXAS	TEXAS	TEXAS
+mclennan	TEXAS	TEXAS	TEXAS	TEXAS
+nacogdoches	TEXAS	TEXAS	TEXAS	TEXAS
+hamilton	TEXAS	TEXAS	TEXAS	TEXAS
+loving	TEXAS	TEXAS	TEXAS	TEXAS
+reeves	TEXAS	TEXAS	TEXAS	TEXAS
+freestone	TEXAS	TEXAS	TEXAS	TEXAS
+coleman	TEXAS	TEXAS	TEXAS	TEXAS
+runnels	TEXAS	TEXAS	TEXAS	TEXAS
+brown	TEXAS	TEXAS	TEXAS	TEXAS
+coke	TEXAS	TEXAS	TEXAS	TEXAS
+culberson	TEXAS	TEXAS	TEXAS	TEXAS
+sterling	TEXAS	TEXAS	TEXAS	TEXAS
+glasscock	TEXAS	TEXAS	TEXAS	TEXAS
+midland	TEXAS	TEXAS	TEXAS	TEXAS
+ector	TEXAS	TEXAS	TEXAS	TEXAS
+shelby	TEXAS	TEXAS	TEXAS	TEXAS
+winkler	TEXAS	TEXAS	TEXAS	TEXAS
+tarrant	TEXAS	TEXAS	TEXAS	TEXAS
+dallas	TEXAS	TEXAS	TEXAS	TEXAS
+crosby	TEXAS	TEXAS	TEXAS	TEXAS
+lubbock	TEXAS	TEXAS	TEXAS	TEXAS
+archer	TEXAS	TEXAS	TEXAS	TEXAS
+hockley	TEXAS	TEXAS	TEXAS	TEXAS
+cochran	TEXAS	TEXAS	TEXAS	TEXAS
+fannin	TEXAS	TEXAS	TEXAS	TEXAS
+cooke	TEXAS	TEXAS	TEXAS	TEXAS
+grayson	TEXAS	TEXAS	TEXAS	TEXAS
+montague	TEXAS	TEXAS	TEXAS	TEXAS
+lamar	TEXAS	TEXAS	TEXAS	TEXAS
+red_river	TEXAS	TEXAS	TEXAS	TEXAS
+clay	TEXAS	TEXAS	TEXAS	TEXAS
+wichita	TEXAS	TEXAS	TEXAS	TEXAS
+foard	TEXAS	TEXAS	TEXAS	TEXAS
+cottle	TEXAS	TEXAS	TEXAS	TEXAS
+motley	TEXAS	TEXAS	TEXAS	TEXAS
+floyd	TEXAS	TEXAS	TEXAS	TEXAS
+hale	TEXAS	TEXAS	TEXAS	TEXAS
+rockwall	TEXAS	TEXAS	TEXAS	TEXAS
+rains	TEXAS	TEXAS	TEXAS	TEXAS
+wood	TEXAS	TEXAS	TEXAS	TEXAS
+camp	TEXAS	TEXAS	TEXAS	TEXAS
+stonewall	TEXAS	TEXAS	TEXAS	TEXAS
+haskell	TEXAS	TEXAS	TEXAS	TEXAS
+kent	TEXAS	TEXAS	TEXAS	TEXAS
+throckmorton	TEXAS	TEXAS	TEXAS	TEXAS
+garza	TEXAS	TEXAS	TEXAS	TEXAS
+lynn	TEXAS	TEXAS	TEXAS	TEXAS
+young	TEXAS	TEXAS	TEXAS	TEXAS
+terry	TEXAS	TEXAS	TEXAS	TEXAS
+yoakum	TEXAS	TEXAS	TEXAS	TEXAS
+cass	TEXAS	TEXAS	TEXAS	TEXAS
+collin	TEXAS	TEXAS	TEXAS	TEXAS
+denton	TEXAS	TEXAS	TEXAS	TEXAS
+wise	TEXAS	TEXAS	TEXAS	TEXAS
+hopkins	TEXAS	TEXAS	TEXAS	TEXAS
+morris	TEXAS	TEXAS	TEXAS	TEXAS
+hunt	TEXAS	TEXAS	TEXAS	TEXAS
+franklin	TEXAS	TEXAS	TEXAS	TEXAS
+jack	TEXAS	TEXAS	TEXAS	TEXAS
+titus	TEXAS	TEXAS	TEXAS	TEXAS
+delta	TEXAS	TEXAS	TEXAS	TEXAS
+bowie	TEXAS	TEXAS	TEXAS	TEXAS
+knox	TEXAS	TEXAS	TEXAS	TEXAS
+king	TEXAS	TEXAS	TEXAS	TEXAS
+dickens	TEXAS	TEXAS	TEXAS	TEXAS
+baylor	TEXAS	TEXAS	TEXAS	TEXAS
+dawson	TEXAS	TEXAS	TEXAS	TEXAS
+gaines	TEXAS	TEXAS	TEXAS	TEXAS
+upshur	TEXAS	TEXAS	TEXAS	TEXAS
+marion	TEXAS	TEXAS	TEXAS	TEXAS
+palo_pinto	TEXAS	TEXAS	TEXAS	TEXAS
+parker	TEXAS	TEXAS	TEXAS	TEXAS
+randall	TEXAS	TEXAS	TEXAS	TEXAS
+deaf_smith	TEXAS	TEXAS	TEXAS	TEXAS
+wheeler	TEXAS	TEXAS	TEXAS	TEXAS
+gray	TEXAS	TEXAS	TEXAS	TEXAS
+carson	TEXAS	TEXAS	TEXAS	TEXAS
+potter	TEXAS	TEXAS	TEXAS	TEXAS
+oldham	TEXAS	TEXAS	TEXAS	TEXAS
+hemphill	TEXAS	TEXAS	TEXAS	TEXAS
+roberts	TEXAS	TEXAS	TEXAS	TEXAS
+hutchinson	TEXAS	TEXAS	TEXAS	TEXAS
+lamb	TEXAS	TEXAS	TEXAS	TEXAS
+bailey	TEXAS	TEXAS	TEXAS	TEXAS
+wilbarger	TEXAS	TEXAS	TEXAS	TEXAS
+hardeman	TEXAS	TEXAS	TEXAS	TEXAS
+childress	TEXAS	TEXAS	TEXAS	TEXAS
+hall	TEXAS	TEXAS	TEXAS	TEXAS
+briscoe	TEXAS	TEXAS	TEXAS	TEXAS
+swisher	TEXAS	TEXAS	TEXAS	TEXAS
+castro	TEXAS	TEXAS	TEXAS	TEXAS
+parmer	TEXAS	TEXAS	TEXAS	TEXAS
+collingsworth	TEXAS	TEXAS	TEXAS	TEXAS
+donley	TEXAS	TEXAS	TEXAS	TEXAS
+armstrong	TEXAS	TEXAS	TEXAS	TEXAS
+lipscomb	TEXAS	TEXAS	TEXAS	TEXAS
+ochiltree	TEXAS	TEXAS	TEXAS	TEXAS
+hansford	TEXAS	TEXAS	TEXAS	TEXAS
+sherman	TEXAS	TEXAS	TEXAS	TEXAS
+dallam	TEXAS	TEXAS	TEXAS	TEXAS
+moore	TEXAS	TEXAS	TEXAS	TEXAS
+hartley	TEXAS	TEXAS	TEXAS	TEXAS

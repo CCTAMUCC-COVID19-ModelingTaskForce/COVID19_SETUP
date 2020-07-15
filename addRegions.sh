@@ -142,7 +142,7 @@ then
 	sed -i 's/maximum: 100/maximum: 1000/' ../schemas/PercentageRange.yml
  
 	# Change default scenario (so the app will load after removing existing countries)
-	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'texas' as const/" ../src/constants.ts
-	sed -i -e "s/DEFAULT_SEVERITY_DISTRIBUTION = .* as const/DEFAULT_SEVERITY_DISTRIBUTION = 'texas' as const/" ../src/constants.ts
+	sed -i -e "s/DEFAULT_SCENARIO_NAME = .* as const/DEFAULT_SCENARIO_NAME = 'TEXAS' as const/" ../src/constants.ts
+	sed -i -e "s/DEFAULT_SEVERITY_DISTRIBUTION = .* as const/DEFAULT_SEVERITY_DISTRIBUTION = 'TEXAS' as const/" ../src/constants.ts
 
 fi

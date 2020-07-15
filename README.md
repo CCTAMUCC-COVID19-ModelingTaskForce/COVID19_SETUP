@@ -60,6 +60,45 @@ This file must contain at least two columns. One column has the name _county_ an
 	# Generate region2county.tsv
 	python3 regions2tsv.py
 
+	# Check the top of the file
+	head -n 5 region2county.csv
+	county  tsa     district        rac     phr
+	atascosa        TSA-P   san_antonio     southwest_texas_rac     PHR-8
+	matagorda       TSA-Q   yoakum  southeast_texas PHR-6/5s
+	jackson TSA-S   yoakum  golden_crescent PHR-8
+	de_witt TSA-S   yoakum  golden_crescent PHR-8
+
+## Optional: update 'region2popByAge.tsv'
+
+The file `region2popByAge.tsv` maps a region (by default, Trama Service Area) to a population distribution. 
+These corrospond to the "age distribution" on the `covid_scenarios` web app. 
+
+This file is created with `regions2popByAge.py` using the region to county mapping in `region2county.tsv` (see above) 
+and the demographic information in `regions/Texas_Demographics.csv`. 
+The user supplies a key, which is the name of the desired region category column in `region2popByAge.tsv`. The default is _tsa_. 
+
+If this file is present, the script `gendata.py` will use this population data instead of the `default_popByAge.tsv`. 
+However, if a particular region has its own named parameter file (i.e. `TSA-V_popByAge.tsv`), the named parameter file will be used. 
+
+	# Generate region2popByAge.tsv
+	python3 regions2popByAge.py -r region2county.tsv -d regions/Texas_Demographics.csv -k tsa
+
+	# Check the top of the file 
+	head -n 5 region2popByAge.tsv
+	tsa     age     total
+	TEXAS   0-9     4064462
+	TEXAS   10-19   4124801
+	TEXAS   20-29   4199337
+	TEXAS   30-39  	4018531
+
+	# Check the bottom of the file
+	tail -n 5 region2popByAge.tsv
+	TSA-V   40-49   170704
+	TSA-V   50-59   140101
+	TSA-V   60-69   114586
+	TSA-V   70-79   74496
+	TSA-V   80+     39955
+
 ## Quick Start After First Time: Upgrade the covid19_scenario model
 
 These steps allow you to pull the latest changes to `covid19_scenarios`. 

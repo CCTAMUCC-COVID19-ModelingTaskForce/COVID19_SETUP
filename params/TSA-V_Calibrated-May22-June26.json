@@ -1,0 +1,267 @@
+{
+ "ageDistributionData": {
+  "data": [
+   {
+    "ageGroup": "0-9",
+    "population": 229879
+   },
+   {
+    "ageGroup": "10-19",
+    "population": 236584
+   },
+   {
+    "ageGroup": "20-29",
+    "population": 211591
+   },
+   {
+    "ageGroup": "30-39",
+    "population": 173295
+   },
+   {
+    "ageGroup": "40-49",
+    "population": 170704
+   },
+   {
+    "ageGroup": "50-59",
+    "population": 140101
+   },
+   {
+    "ageGroup": "60-69",
+    "population": 114586
+   },
+   {
+    "ageGroup": "70-79",
+    "population": 74496
+   },
+   {
+    "ageGroup": "80+",
+    "population": 39955
+   }
+  ],
+  "name": "TSA-V"
+ },
+ "severityDistributionData": {
+  "data": [
+   {
+    "ageGroup": "0-9",
+    "confirmed": 5,
+    "critical": 5,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 1
+   },
+   {
+    "ageGroup": "10-19",
+    "confirmed": 5,
+    "critical": 10,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 3
+   },
+   {
+    "ageGroup": "20-29",
+    "confirmed": 10,
+    "critical": 10,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 3
+   },
+   {
+    "ageGroup": "30-39",
+    "confirmed": 15,
+    "critical": 15,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 3
+   },
+   {
+    "ageGroup": "40-49",
+    "confirmed": 20,
+    "critical": 20,
+    "fatal": 30,
+    "isolated": 0,
+    "severe": 6
+   },
+   {
+    "ageGroup": "50-59",
+    "confirmed": 25,
+    "critical": 25,
+    "fatal": 40,
+    "isolated": 0,
+    "severe": 10
+   },
+   {
+    "ageGroup": "60-69",
+    "confirmed": 30,
+    "critical": 35,
+    "fatal": 40,
+    "isolated": 0,
+    "severe": 25
+   },
+   {
+    "ageGroup": "70-79",
+    "confirmed": 40,
+    "critical": 45,
+    "fatal": 50,
+    "isolated": 0,
+    "severe": 35
+   },
+   {
+    "ageGroup": "80+",
+    "confirmed": 50,
+    "critical": 55,
+    "fatal": 50,
+    "isolated": 0,
+    "severe": 50
+   }
+  ],
+  "name": "TSA-V"
+ },
+ "scenarioData": {
+  "data": {
+   "epidemiological": {
+    "hospitalStayDays": 9.5,
+    "icuStayDays": 11.6,
+    "infectiousPeriodDays": 3.5,
+    "latencyDays": 4.0,
+    "overflowSeverity": 1.0,
+    "peakMonth": 1,
+    "seasonalForcing": 0.0,
+    "r0": {
+     "begin": 4.0,
+     "end": 4.0
+    }
+   },
+   "mitigation": {
+    "mitigationIntervals": [
+     {
+      "color": "#bf5b17",
+      "name": "Flatten Curve 1",
+      "transmissionReduction": {
+       "begin": 20.0,
+       "end": 20.0
+      },
+      "timeRange": {
+       "begin": "2020-03-21T00:00:00.000Z",
+       "end": "2020-04-03T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Flatten Curve 1b",
+      "transmissionReduction": {
+       "begin": 80.0,
+       "end": 80.0
+      },
+      "timeRange": {
+       "begin": "2020-04-03T00:00:00.000Z",
+       "end": "2020-04-21T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Cabin Fever",
+      "transmissionReduction": {
+       "begin": 75.0,
+       "end": 75.0
+      },
+      "timeRange": {
+       "begin": "2020-04-21T00:00:00.000Z",
+       "end": "2020-04-29T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Open TX 1",
+      "transmissionReduction": {
+       "begin": 70.0,
+       "end": 70.0
+      },
+      "timeRange": {
+       "begin": "2020-04-29T00:00:00.000Z",
+       "end": "2020-05-23T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "X-Factor",
+      "transmissionReduction": {
+       "begin": 30.0,
+       "end": 30.0
+      },
+      "timeRange": {
+       "begin": "2020-05-09T00:00:00.000Z",
+       "end": "2020-05-19T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Open TX 2",
+      "transmissionReduction": {
+       "begin": 50.0,
+       "end": 50.0
+      },
+      "timeRange": {
+       "begin": "2020-05-23T00:00:00.000Z",
+       "end": "2020-06-04T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Open TX 3",
+      "transmissionReduction": {
+       "begin": 50.0,
+       "end": 50.0
+      },
+      "timeRange": {
+       "begin": "2020-06-04T00:00:00.000Z",
+       "end": "2020-06-27T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Open TX 2",
+      "transmissionReduction": {
+       "begin": 75.0,
+       "end": 75.0
+      },
+      "timeRange": {
+       "begin": "2020-06-27T00:00:00.000Z",
+       "end": "2020-07-04T00:00:00.000Z"
+      }
+     },
+     {
+      "color": "#bf5b17",
+      "name": "Open TX 1.5",
+      "transmissionReduction": {
+       "begin": 75.0,
+       "end": 75.0
+      },
+      "timeRange": {
+       "begin": "2020-07-04T00:00:00.000Z",
+       "end": "2021-01-01T00:00:00.000Z"
+      }
+     }
+    ]
+   },
+   "population": {
+    "ageDistributionName": "TSA-V",
+    "caseCountsName": "TSA-V",
+    "hospitalBeds": 100000,
+    "icuBeds": 100000,
+    "importsPerDay": 0.1,
+    "initialNumberOfCases": 12,
+    "populationServed": 1391191
+   },
+   "simulation": {
+    "numberStochasticRuns": 100,
+    "simulationTimeRange": {
+     "begin": "2020-03-08T00:00:00.000Z",
+     "end": "2020-12-02T00:00:00.000Z"
+    }
+   }
+  },
+  "name": "TSA-V"
+ },
+ "schemaVer": "2.0.0"
+}

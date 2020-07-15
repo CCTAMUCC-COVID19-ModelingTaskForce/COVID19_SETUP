@@ -11,11 +11,15 @@ import pandas as pd
 from shutil import copyfile 
 from optparse import OptionParser
 import datetime
+import numpy as np
 
 parser = OptionParser()
 parser.add_option("-i", "--infile",
 	help = "Path to file mapping counties to regions. One column must be 'county' and another must be the region categories.",
 	default = "region2county.tsv")
+parser.add_option("-p", "--pop_by_age", 
+	help = "Path to file mapping population stats to regions. One column must be 'age', another 'total', and one with the regions",
+	default = "region2popByAge.tsv")
 parser.add_option("-k", "--key",
 	help = "Column name of region categories in the mapping file. Default is 'tsa'.",
 	default = "tsa")
@@ -24,12 +28,14 @@ parser.add_option("-k", "--key",
 # Input files
 key = options.key
 r2cFile = options.infile
+r2pFile = options.pop_by_age
+pdir = "params/"
 parserTemplateFile = "ParserTemplate.py"
 sourcesTemplateFile = "sources.json.template"
-defaultParamsFile = "default_params.tsv"
-defaultPopByAgeFile = "default_popByAge.tsv"
-defaultMitigationsFile = "default_mitigations.tsv"
-defaultSeverityFile = "default_severity.tsv"
+defaultParamsFile = pdir + "default_params.tsv"
+defaultPopByAgeFile = pdir + "default_popByAge.tsv"
+defaultMitigationsFile = pdir + "default_mitigations.tsv"
+defaultSeverityFile = pdir + "default_severity.tsv"
 # Output files
 sourcesOutFile = "out/sources.json.cb"
 ageDistributionOutFile = "out/ageDistribution.json.cb"
@@ -42,6 +48,10 @@ ageDistributionTemplate = '{"name" : "NAME", "data" : [{ "ageGroup" : "0-9", "po
 r2c = pd.read_csv(r2cFile, sep = '\t')
 regions = list(set([r.strip() for r in list(r2c["tsa"])]))
 numRegions = len(regions)
+
+# Get region popByAge
+if r2pFile is not None:
+	r2p = pd.read_csv(r2pFile, sep = '\t')
 
 # Open defaults
 default_params = pd.read_csv(defaultParamsFile, sep = "\t")
@@ -64,23 +74,33 @@ for region in regions:
 	# Get region's counties
 	counties = list(set([c.strip() for c in list(r2c[r2c["tsa"] == region]["county"])]))
 
+	default = True
 	# Try to open region-specific files
-	if path.exists("{r}_params.tsv".format(r = region)):
-		params = pd.read_csv("{r}_params.tsv".format(r = region), sep = "\t")
+	if path.exists("{d}/{r}_params.tsv".format(d = pdir, r = region)):
+		params = pd.read_csv("{d}/{r}_params.tsv".format(d = pdir, r = region), sep = "\t")
 	else:
 		params = default_params
-	if path.exists("{r}_popByAge.tsv".format(r = region)):
-		popByAge = pd.read_csv("{r}_popByAge.tsv".format(r = region), sep = "\t")
+	if path.exists("{d}/{r}_popByAge.tsv".format(d = pdir, r = region)):
+		popByAge = pd.read_csv("{d}/{r}_popByAge.tsv".format(d = pdir, r = region), sep = "\t")
+		default = False
 	else:
 		popByAge = default_popByAge
-	if path.exists("{r}_mitigations.tsv".format(r = region)):
-		mitigations = pd.read_csv("{r}_mitigations.tsv".format(r = region), sep = "\t")
+	if path.exists("{d}/{r}_mitigations.tsv".format(d = pdir, r = region)):
+		mitigations = pd.read_csv("{d}/{r}_mitigations.tsv".format(d = pdir, r = region), sep = "\t")
 	else:
 		mitigations = default_mitigations
-	if path.exists("{r}_severity.tsv".format(r = region)):
-		severity = pd.read_csv("{r}_severity.tsv".format(r = region), sep = "\t")
+	if path.exists("{d}/{r}_severity.tsv".format(d = pdir, r = region)):
+		severity = pd.read_csv("{d}/{r}_severity.tsv".format(d = pdir, r = region), sep = "\t")
 	else:
 		severity = default_severity
+
+	# In-place correct popByAge if the region2popByAge was provided
+	pops = list(popByAge["Total"])
+	if r2pFile is not None and default == True:
+		pops = list(r2p[r2p[key] == region]["total"])
+	else:
+		pops = list(popByAge["Total"])
+	print(region, pops)
 
 	# Parser
 	fmtCounties = "counties = ["
@@ -105,7 +125,7 @@ for region in regions:
 	sources += template
 
 	# Age distribution
-	ageDistribution += ageDistributionTemplate.replace("NAME", region).replace("P1", str(popByAge["Total"][0])).replace("P2", str(popByAge["Total"][1])).replace("P3", str(popByAge["Total"][2])).replace("P4", str(popByAge["Total"][3])).replace("P5", str(popByAge["Total"][4])).replace("P6", str(popByAge["Total"][5])).replace("P7", str(popByAge["Total"][6])).replace("P8", str(popByAge["Total"][7])).replace("P9", str(popByAge["Total"][8]))
+	ageDistribution += ageDistributionTemplate.replace("NAME", region).replace("P1", str(pops[0])).replace("P2", str(pops[1])).replace("P3", str(pops[2])).replace("P4", str(pops[3])).replace("P5", str(pops[4])).replace("P6", str(pops[5])).replace("P7", str(pops[6])).replace("P8", str(pops[7])).replace("P9", str(pops[8]))
 	if count < numRegions - 1:
 		ageDistribution += ",\n"
 
@@ -118,6 +138,7 @@ for region in regions:
 	stopDate = datetime.datetime(int(stop[2]), int(stop[0]), int(stop[1]), 0, 0, 0)
 	stopDate += datetime.timedelta(days = 1)
 	stop = "{}-{:02d}-{:02d}".format(stopDate.year, stopDate.month, stopDate.day)
+
 	# Scenario
 	scenario = {
 		"name" : region,
@@ -143,7 +164,7 @@ for region in regions:
 				"icuBeds" : int(params.loc[params["parameter"] == "ICU beds available", "meanVal"].item()),
 				"importsPerDay" : float(params.loc[params["parameter"] == "Imports per day", "meanVal"].item()),
 				"initialNumberOfCases" : int(params.loc[params["parameter"] == "Initial number of cases", "meanVal"].item()),
-				"populationServed" : int(params.loc[params["parameter"] == "Population size", "meanVal"].item()),
+				"populationServed" : int(np.sum(pops)),
 			},
 			"simulation" : {
 				"numberStochasticRuns": int(params.loc[params["parameter"] == "Number of Runs", "meanVal"].item()),
