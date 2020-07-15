@@ -15,6 +15,10 @@ The repo is used to insert the Coastal Bend scenario so that it can be used with
 	python3 params2json.py -j output.json \
 		-p PARAMS.tsv -a AGE_DIST.tsv -m MITIGATIONS.tsv -s SEVERITY.tsv
 
+	# Example run, using files available in repo
+	python3 params2json.py -j output.json \
+		-p params/default_params.tsv -a params/default_popByAge.tsv -m params/default_mitigations.tsv -s params/default_severity.tsv
+
 ## Quick Start: First Time Running
 
 #### Get dependencies
