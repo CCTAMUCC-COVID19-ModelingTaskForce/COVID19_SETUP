@@ -32,7 +32,7 @@ The repo is used to insert the Coastal Bend scenario so that it can be used with
 #### Get this repository
 	
 	cd covid19_scenarios
-	git clone https://github.com/cbirdlab/COVID19_SETUP.git
+	git clone https://github.com/CCTAMUCC-COVID19-ModelingTaskForce/COVID19_SETUP.git
 
 #### Run covid19_scenarios
 
