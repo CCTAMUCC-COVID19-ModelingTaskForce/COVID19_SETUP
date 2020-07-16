@@ -100,7 +100,6 @@ for region in regions:
 		pops = list(r2p[r2p[key] == region]["total"])
 	else:
 		pops = list(popByAge["Total"])
-	print(region, pops)
 
 	# Parser
 	fmtCounties = "counties = ["
