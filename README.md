@@ -24,6 +24,7 @@ The repo is used to insert the Coastal Bend scenario so that it can be used with
 #### Get dependencies
 
 	sudo apt-get install gnumeric
+	pip3 install pandas datetime
 
 #### Get covid19_scenarios repository
 
