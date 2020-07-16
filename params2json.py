@@ -10,16 +10,16 @@ months = ["january", "february", "march", "april", "may", "june", "july", "augus
 parser = OptionParser()
 parser.add_option("-p", "--params",
     help = "Path to parameters tsv file.",
-    default = "default_params.tsv")
+    default = "params/default_params.tsv")
 parser.add_option("-a", "--agepop",
     help = "Path to age_population tsv file.",
-    default = "default_popByAge.tsv")
+    default = "params/default_popByAge.tsv")
 parser.add_option("-m", "--mitigations",
     help = "Path to mitigations tsv file.",
-    default = "default_mitigations.tsv")
+    default = "params/default_mitigations.tsv")
 parser.add_option("-s", "--severity",
     help = "Path to severity distribution tsv file.",
-    default = "default_severity.tsv")
+    default = "params/default_severity.tsv")
 parser.add_option("-j", "--json",
     help = "Path to output json file.",
     default = None)
