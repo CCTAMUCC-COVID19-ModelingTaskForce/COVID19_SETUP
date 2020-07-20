@@ -86,11 +86,11 @@ parameters["scenarioData"]["data"]["simulation"]["numberStochasticRuns"] = int(p
 start = paramsDF.loc[paramsDF["parameter"] == "Simulation start date", "meanVal"].item().split("/")
 startDate = datetime.datetime(int(start[2]), int(start[0]), int(start[1]), 0, 0, 0)
 #startDate += datetime.timedelta(days = 1)
-start = "{}-{:02d}-{:02d}T00:00:00.000Z".format(startDate.year, startDate.month, startDate.day)
+start = "{}-{:02d}-{:02d}T17:00:00.000Z".format(startDate.year, startDate.month, startDate.day)
 stop = paramsDF.loc[paramsDF["parameter"] == "Simulation end date", "meanVal"].item().split("/")
 stopDate = datetime.datetime(int(stop[2]), int(stop[0]), int(stop[1]), 0, 0, 0)
 #stopDate += datetime.timedelta(days = 1)
-stop = "{}-{:02d}-{:02d}T00:00:00.000Z".format(stopDate.year, stopDate.month, stopDate.day)
+stop = "{}-{:02d}-{:02d}T17:00:00.000Z".format(stopDate.year, stopDate.month, stopDate.day)
 parameters["scenarioData"]["data"]["simulation"]["simulationTimeRange"]["begin"] = start
 parameters["scenarioData"]["data"]["simulation"]["simulationTimeRange"]["end"] = stop
 parameters["scenarioData"]["data"]["epidemiological"]["hospitalStayDays"] = float(paramsDF.loc[paramsDF["parameter"] == "Days in hospital", "meanVal"].item())
