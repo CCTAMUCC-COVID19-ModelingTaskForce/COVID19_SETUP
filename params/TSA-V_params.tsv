@@ -15,6 +15,6 @@ Latency	4	normal	0.5	5.1	3
 Infectious period	3.5	normal	0.5	5.5	1.4
 Seasonal forcing	0	na	na	na	na
 Seasonal peak	January	na	na	na	na
-Days in hospital	9.5	normal	0.5	na	na
-Days in icu	11.6	normal	0.5	na	na
+Days in hospital	6	normal	0.5	na	na
+Days in icu	8	normal	0.5	na	na
 Severity of ICU overflow	1	na	na	na	na

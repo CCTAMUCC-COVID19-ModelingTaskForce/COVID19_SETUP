@@ -1,0 +1,11 @@
+Intervention	InterventionOrder	Dist	MeanRelativePropReduction	Stdev	LowerTransmissionReduction	UpperTransmissionReduction	DateBegin	DateEnd
+Flatten Curve 1	First	Even	40		40	40	3/20/2020	4/2/2020
+Flatten Curve 1b	Later	Even	81		81	81	4/2/2020	4/19/2020
+Cabin Fever	Later	Even	75		75	75	4/19/2020	4/28/2020
+Open TX 1	Later	Even	70		70	70	4/28/2020	5/22/2020
+X-Factor	Later	Even	20		20	20	5/8/2020	5/18/2020
+Open TX 2	Later	Even	50		50	50	5/22/2020	6/3/2020
+Open TX 3	Later	Even	50		50	50	6/3/2020	6/17/2020
+Open TX 2	Later	Even	70		70	70	6/17/2020	6/29/2020
+Open TX 1.5	Later	Even	59		59	59	6/29/2020	7/19/2020
+Rt1.64	Later	Even	59		51	67	7/19/2020	12/31/2020
