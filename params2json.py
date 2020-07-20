@@ -129,7 +129,7 @@ for name, lower, upper, start, stop in zip(mitigationsDF["Intervention"], \
     stop = stop.split("/")
     stopDate = datetime.datetime(int(stop[2]), int(stop[0]), int(stop[1]), 0, 0, 0)
     stopDate += datetime.timedelta(days = 1)
-    stop = "{}-{:02d}-{:02d}T00:00:00.000Z".format(stopDate.year, stopDate.month, stopDate.day)
+    stop = "{}-{:02d}-{:02d}T17:00:00.000Z".format(stopDate.year, stopDate.month, stopDate.day)
 
     mitigations.append({
         "color" : "#bf5b17",
