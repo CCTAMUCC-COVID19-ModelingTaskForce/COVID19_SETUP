@@ -125,7 +125,7 @@ for name, lower, upper, start, stop in zip(mitigationsDF["Intervention"], \
     start = start.split("/")
     startDate = datetime.datetime(int(start[2]), int(start[0]), int(start[1]), 0, 0, 0)
     startDate += datetime.timedelta(days = 1)
-    start = "{}-{:02d}-{:02d}T00:00:00.000Z".format(startDate.year, startDate.month, startDate.day)
+    start = "{}-{:02d}-{:02d}T17:00:00.000Z".format(startDate.year, startDate.month, startDate.day)
     stop = stop.split("/")
     stopDate = datetime.datetime(int(stop[2]), int(stop[0]), int(stop[1]), 0, 0, 0)
     stopDate += datetime.timedelta(days = 1)
