@@ -17,8 +17,6 @@ Adds spinboxes to select min and max values for x and y axes.
 		plotControls/src_state_settings_settings.selectors.ts.orig
 	cp ../../src/state/settings/settings.state.ts \
 		plotControls/src_state_settings_settings.state.ts.orig
-	cp ../../src/components/Form/KrellSpinBox.tsx \
-		plotControls/src_components_Form_KrellSpinBox.tsx.orig
 	cp ../../src/components/Main/Controls/SettingsControls.tsx \
 		plotControls/src_components_Main_Controls_SettingsControls.tsx.orig
 	cp ../../src/components/Main/Results/DeterministicLinePlot.tsx \
