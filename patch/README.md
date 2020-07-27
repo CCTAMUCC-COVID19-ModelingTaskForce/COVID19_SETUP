@@ -41,3 +41,41 @@ Adds spinboxes to select min and max values for x and y axes.
 		../../src/components/Main/Results/DeterministicLinePlot.tsx
 
 
+#### Patch `mitigationSliders`: slider control of mitigations
+
+	# Backup originals
+	cp ../../src/components/Main/Mitigation/MitigationDatePicker.tsx \
+		mitigationSliders/src_components_Main_Mitigation_MitigationDatePicker.tsx.orig
+	cp ../../src/components/Main/Mitigation/MitigationIntervalComponent.tsx \
+		mitigationSliders/src_components_Main_Mitigation_MitigationIntervalComponent.tsx.orig
+	cp ../../src/components/Main/Mitigation/MitigationTable.scss \
+		mitigationSliders/src_components_Main_Mitigation_MitigationTable.scss.orig
+	cp ../../src/components/Main/Mitigation/MitigationTable.tsx \
+		mitigationSliders/src_components_Main_Mitigation_MitigationTable.tsx.orig
+
+	# Replace with patches
+	cp mitigationSliders/src_components_Main_Mitigation_MitigationDatePicker.tsx \
+		../../src/components/Main/Mitigation/MitigationDatePicker.tsx
+	cp mitigationSliders/src_components_Main_Mitigation_MitigationIntervalComponent.tsx \
+		../../src/components/Main/Mitigation/MitigationIntervalComponent.tsx
+	cp mitigationSliders/src_components_Main_Mitigation_MitigationTable.scss \
+		../../src/components/Main/Mitigation/MitigationTable.scss
+	cp mitigationSliders/src_components_Main_Mitigation_MitigationTable.tsx \
+		../../src/components/Main/Mitigation/MitigationTable.tsx
+
+	cp mitigationSliders/src_components_Main_Mitigation_MitigationControlButtons.tsx \
+		../../src/components/Main/Mitigation/MitigationControlButtons.tsx
+	cp mitigationSliders/src_components_Main_Mitigation_MitigationTransmissionRange.tsx \
+		../../src/components/Main/Mitigation/MitigationTransmissionRange.tsx
+	cp mitigationSliders/src_components_Main_Mitigation_RangeSlider.tsx \
+		../../src/components/Main/Mitigation/RangeSlider.tsx
+
+
+
+
+
+
+	
+
+
+
