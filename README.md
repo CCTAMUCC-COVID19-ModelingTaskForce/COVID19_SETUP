@@ -39,6 +39,7 @@ The repo is used to insert the Coastal Bend scenario so that it can be used with
 
 	cp .env.example .env
 	yarn install
+	yarn add @material-ui/core
 	yarn dev
 	
 #### Integrate Coastal Bend scenario
