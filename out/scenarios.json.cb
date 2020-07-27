@@ -1,0 +1,4538 @@
+{
+  "all": [
+    {
+      "name": "TSA-P",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-P",
+          "caseCountsName": "TSA-P",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 2821083
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-B",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-B",
+          "caseCountsName": "TSA-B",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 497256
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-G",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-G",
+          "caseCountsName": "TSA-G",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 968435
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-Q",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 4.0,
+            "end": 4.0
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-Q",
+          "caseCountsName": "TSA-Q",
+          "hospitalBeds": 100000,
+          "icuBeds": 100000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 6387825
+        },
+        "simulation": {
+          "numberStochasticRuns": 100,
+          "simulationTimeRange": {
+            "begin": "2020-02-24",
+            "end": "2020-12-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-E",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-E",
+          "caseCountsName": "TSA-E",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 7832715
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-T",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-T",
+          "caseCountsName": "TSA-T",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 300090
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-U",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-U",
+          "caseCountsName": "TSA-U",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 595870
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-V",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 6.0,
+          "icuStayDays": 8.0,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 4.0,
+            "end": 4.0
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "Flatten Curve 1",
+              "transmissionReduction": {
+                "begin": 40.0,
+                "end": 40.0
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-03"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Flatten Curve 1b",
+              "transmissionReduction": {
+                "begin": 81.0,
+                "end": 81.0
+              },
+              "timeRange": {
+                "begin": "2020-04-03",
+                "end": "2020-04-20"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Cabin Fever",
+              "transmissionReduction": {
+                "begin": 75.0,
+                "end": 75.0
+              },
+              "timeRange": {
+                "begin": "2020-04-20",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Open TX 1",
+              "transmissionReduction": {
+                "begin": 70.0,
+                "end": 70.0
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-Factor",
+              "transmissionReduction": {
+                "begin": 20.0,
+                "end": 20.0
+              },
+              "timeRange": {
+                "begin": "2020-05-09",
+                "end": "2020-05-19"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Open TX 2",
+              "transmissionReduction": {
+                "begin": 50.0,
+                "end": 50.0
+              },
+              "timeRange": {
+                "begin": "2020-05-23",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Open TX 3",
+              "transmissionReduction": {
+                "begin": 50.0,
+                "end": 50.0
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-18"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Open TX 2",
+              "transmissionReduction": {
+                "begin": 70.0,
+                "end": 70.0
+              },
+              "timeRange": {
+                "begin": "2020-06-18",
+                "end": "2020-06-30"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Open TX 1.5",
+              "transmissionReduction": {
+                "begin": 59.0,
+                "end": 59.0
+              },
+              "timeRange": {
+                "begin": "2020-06-30",
+                "end": "2020-07-20"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.64",
+              "transmissionReduction": {
+                "begin": 51.0,
+                "end": 67.0
+              },
+              "timeRange": {
+                "begin": "2020-07-20",
+                "end": "2021-01-01"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-V",
+          "caseCountsName": "TSA-V",
+          "hospitalBeds": 100000,
+          "icuBeds": 100000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 1391191
+        },
+        "simulation": {
+          "numberStochasticRuns": 100,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-12-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-C",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-C",
+          "caseCountsName": "TSA-C",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 221944
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-H",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-H",
+          "caseCountsName": "TSA-H",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 278031
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-K",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-K",
+          "caseCountsName": "TSA-K",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 169285
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-D",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-D",
+          "caseCountsName": "TSA-D",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 304531
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-J",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-J",
+          "caseCountsName": "TSA-J",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 474976
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TEXAS",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "Intervention 1",
+              "transmissionReduction": {
+                "begin": 68.3,
+                "end": 79.7
+              },
+              "timeRange": {
+                "begin": "2020-03-29",
+                "end": "2020-09-01"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TEXAS",
+          "caseCountsName": "TEXAS",
+          "hospitalBeds": 67786,
+          "icuBeds": 2260,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 1,
+          "populationServed": 331002651
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-02-26",
+            "end": "2020-08-31"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-A",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-A",
+          "caseCountsName": "TSA-A",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 431071
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-S",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.1,
+            "end": 3.1
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-S",
+          "caseCountsName": "TSA-S",
+          "hospitalBeds": 100000,
+          "icuBeds": 100000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 178199
+        },
+        "simulation": {
+          "numberStochasticRuns": 100,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-12-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-F",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-F",
+          "caseCountsName": "TSA-F",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 279137
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-M",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-M",
+          "caseCountsName": "TSA-M",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 351420
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-L",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-L",
+          "caseCountsName": "TSA-L",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 487626
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-N",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-N",
+          "caseCountsName": "TSA-N",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 359076
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-R",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 4.0,
+            "end": 4.0
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-R",
+          "caseCountsName": "TSA-R",
+          "hospitalBeds": 100000,
+          "icuBeds": 100000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 1288385
+        },
+        "simulation": {
+          "numberStochasticRuns": 100,
+          "simulationTimeRange": {
+            "begin": "2020-03-02",
+            "end": "2020-12-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-I",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-I",
+          "caseCountsName": "TSA-I",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 858396
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    },
+    {
+      "name": "TSA-O",
+      "data": {
+        "epidemiological": {
+          "hospitalStayDays": 9.5,
+          "icuStayDays": 11.6,
+          "infectiousPeriodDays": 3.5,
+          "latencyDays": 4.0,
+          "overflowSeverity": 1.0,
+          "peakMonth": 1,
+          "r0": {
+            "begin": 3.0,
+            "end": 3.2
+          },
+          "seasonalForcing": 0.0
+        },
+        "mitigation": {
+          "mitigationIntervals": [
+            {
+              "color": "#bf5b17",
+              "name": "School Closure",
+              "transmissionReduction": {
+                "begin": 29.81262169,
+                "end": 29.81262169
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Self Isolation",
+              "transmissionReduction": {
+                "begin": 8.446798762,
+                "end": 8.446798762
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 12.63807124,
+                "end": 12.63807124
+              },
+              "timeRange": {
+                "begin": "2020-03-21",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 65.87802085,
+                "end": 65.87802085
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 13.65582408,
+                "end": 13.65582408
+              },
+              "timeRange": {
+                "begin": "2020-03-30",
+                "end": "2020-04-10"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Social Distancing",
+              "transmissionReduction": {
+                "begin": 5.019356317,
+                "end": 5.019356317
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 36.86336044,
+                "end": 36.86336044
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Public Events",
+              "transmissionReduction": {
+                "begin": 5.510479899,
+                "end": 5.510479899
+              },
+              "timeRange": {
+                "begin": "2020-04-10",
+                "end": "2020-04-29"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Stay-at-Home",
+              "transmissionReduction": {
+                "begin": 13.13917077,
+                "end": 13.13917077
+              },
+              "timeRange": {
+                "begin": "2020-04-29",
+                "end": "2020-06-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "X-factor",
+              "transmissionReduction": {
+                "begin": 46.9,
+                "end": 46.9
+              },
+              "timeRange": {
+                "begin": "2020-05-03",
+                "end": "2020-05-23"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt3",
+              "transmissionReduction": {
+                "begin": 3.225806452,
+                "end": 3.225806452
+              },
+              "timeRange": {
+                "begin": "2020-06-04",
+                "end": "2020-06-27"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1.5",
+              "transmissionReduction": {
+                "begin": 51.61290323,
+                "end": 51.61290323
+              },
+              "timeRange": {
+                "begin": "2020-06-27",
+                "end": "2020-07-04"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt1",
+              "transmissionReduction": {
+                "begin": 67.74193548,
+                "end": 67.74193548
+              },
+              "timeRange": {
+                "begin": "2020-07-04",
+                "end": "2020-07-11"
+              }
+            },
+            {
+              "color": "#bf5b17",
+              "name": "Rt0.5",
+              "transmissionReduction": {
+                "begin": 83.87096774,
+                "end": 83.87096774
+              },
+              "timeRange": {
+                "begin": "2020-07-11",
+                "end": "2020-09-02"
+              }
+            }
+          ]
+        },
+        "population": {
+          "ageDistributionName": "TSA-O",
+          "caseCountsName": "TSA-O",
+          "hospitalBeds": 10000,
+          "icuBeds": 10000,
+          "importsPerDay": 0.1,
+          "initialNumberOfCases": 12,
+          "populationServed": 2294154
+        },
+        "simulation": {
+          "numberStochasticRuns": 10,
+          "simulationTimeRange": {
+            "begin": "2020-03-08",
+            "end": "2020-09-02"
+          }
+        }
+      }
+    }
+  ]
+}

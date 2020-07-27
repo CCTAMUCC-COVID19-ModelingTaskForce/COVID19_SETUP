@@ -1,0 +1,1775 @@
+{
+  "all": [
+    {
+      "name": "TSA-P",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-B",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-G",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-Q",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 5,
+          "critical": 5,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 1
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 5,
+          "critical": 10,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 3
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 10,
+          "critical": 10,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 3
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 15,
+          "critical": 15,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 3
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 20,
+          "critical": 20,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 6
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 25,
+          "critical": 25,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 30,
+          "critical": 35,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 40,
+          "critical": 45,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 55,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 50
+        }
+      ]
+    },
+    {
+      "name": "TSA-E",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-T",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-U",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 5,
+          "critical": 11.25,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.33
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 5,
+          "critical": 22.5,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.99
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 10,
+          "critical": 22.5,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.99
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 15,
+          "critical": 33.75,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.99
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 20,
+          "critical": 45.0,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 1.98
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 25,
+          "critical": 56.25,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 3.3
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 30,
+          "critical": 78.75,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 8.25
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 40,
+          "critical": 100.0,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 11.55
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 100.0,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 16.5
+        }
+      ]
+    },
+    {
+      "name": "TSA-V",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 5,
+          "critical": 5,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.85
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 5,
+          "critical": 10,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 2.55
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 10,
+          "critical": 10,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 2.55
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 15,
+          "critical": 15,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 2.55
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 20,
+          "critical": 20,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 5.1
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 25,
+          "critical": 25,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 8.5
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 30,
+          "critical": 35,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 21.25
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 40,
+          "critical": 45,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 29.75
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 55,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 42.5
+        }
+      ]
+    },
+    {
+      "name": "TSA-C",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-H",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-K",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-D",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-J",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TEXAS",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-A",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-S",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 5,
+          "critical": 11.25,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.33
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 5,
+          "critical": 22.5,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.99
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 10,
+          "critical": 22.5,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.99
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 15,
+          "critical": 33.75,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 0.99
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 20,
+          "critical": 45.0,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 1.98
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 25,
+          "critical": 56.25,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 3.3
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 30,
+          "critical": 78.75,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 8.25
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 40,
+          "critical": 100.0,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 11.55
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 100.0,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 16.5
+        }
+      ]
+    },
+    {
+      "name": "TSA-F",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-M",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-L",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-N",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-R",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 5,
+          "critical": 5,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 1
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 5,
+          "critical": 10,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 3
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 10,
+          "critical": 10,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 3
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 15,
+          "critical": 15,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 3
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 20,
+          "critical": 20,
+          "fatal": 30,
+          "isolated": 0,
+          "severe": 6
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 25,
+          "critical": 25,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 30,
+          "critical": 35,
+          "fatal": 40,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 40,
+          "critical": 45,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 55,
+          "fatal": 50,
+          "isolated": 0,
+          "severe": 50
+        }
+      ]
+    },
+    {
+      "name": "TSA-I",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    },
+    {
+      "name": "TSA-O",
+      "data": [
+        {
+          "ageGroup": "0-9",
+          "confirmed": 1,
+          "critical": 30,
+          "fatal": 0.00075,
+          "isolated": 0,
+          "severe": 5
+        },
+        {
+          "ageGroup": "10-19",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.0045,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "20-29",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.009000000000000001,
+          "isolated": 0,
+          "severe": 10
+        },
+        {
+          "ageGroup": "30-39",
+          "confirmed": 3,
+          "critical": 30,
+          "fatal": 0.02,
+          "isolated": 0,
+          "severe": 15
+        },
+        {
+          "ageGroup": "40-49",
+          "confirmed": 6,
+          "critical": 30,
+          "fatal": 0.07200000000000001,
+          "isolated": 0,
+          "severe": 20
+        },
+        {
+          "ageGroup": "50-59",
+          "confirmed": 10,
+          "critical": 40,
+          "fatal": 0.25,
+          "isolated": 0,
+          "severe": 25
+        },
+        {
+          "ageGroup": "60-69",
+          "confirmed": 25,
+          "critical": 40,
+          "fatal": 1.1,
+          "isolated": 0,
+          "severe": 35
+        },
+        {
+          "ageGroup": "70-79",
+          "confirmed": 35,
+          "critical": 50,
+          "fatal": 3.1,
+          "isolated": 0,
+          "severe": 45
+        },
+        {
+          "ageGroup": "80+",
+          "confirmed": 50,
+          "critical": 50,
+          "fatal": 6.9,
+          "isolated": 0,
+          "severe": 55
+        }
+      ]
+    }
+  ]
+}
