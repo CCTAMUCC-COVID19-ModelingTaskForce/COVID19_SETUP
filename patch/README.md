@@ -62,7 +62,6 @@ Adds spinboxes to select min and max values for x and y axes.
 		../../src/components/Main/Mitigation/MitigationTable.scss
 	cp mitigationSliders/src_components_Main_Mitigation_MitigationTable.tsx \
 		../../src/components/Main/Mitigation/MitigationTable.tsx
-
 	cp mitigationSliders/src_components_Main_Mitigation_MitigationControlButtons.tsx \
 		../../src/components/Main/Mitigation/MitigationControlButtons.tsx
 	cp mitigationSliders/src_components_Main_Mitigation_MitigationTransmissionRange.tsx \
@@ -71,11 +70,28 @@ Adds spinboxes to select min and max values for x and y axes.
 		../../src/components/Main/Mitigation/RangeSlider.tsx
 
 
+#### Patch `trajectories`: additional data on Outbreak Trajectories plot
 
+	# Backup originals
+	cp ../../src/algorithms/preparePlotData.ts \
+		trajectories/src_algorithms_preparePlotData.ts.orig
+	cp ../../src/algorithms/results.ts \
+		trajectories/src_algorithms_results.ts.orig
+	cp ../../src/algorithms/model.ts \
+		trajectories/src_algorithms_model.ts.orig
+	cp ../../src/algorithms/types/Result.types.ts \
+		trajectories/src_algorithms_types_Result.types.ts.orig
+	cp ../../src/components/Main/Results/ChartCommon.ts \
+		trajectories/src_components_Main_Results_ChartCommon.ts.orig
 
-
-
-	
-
-
-
+	# Replace with patches
+	cp trajectories/src_algorithms_preparePlotData.ts \
+		../../src/algorithms/preparePlotData.ts
+	cp trajectories/src_algorithms_results.ts \
+		../../src/algorithms/results.ts
+	cp trajectories/src_algorithms_model.ts \
+		../../src/algorithms/model.ts
+	cp trajectories/src_algorithms_types_Result.types.ts \
+		../../src/algorithms/types/Result.types.ts 
+	cp trajectories/src_components_Main_Results_ChartCommon.ts \
+		../../src/components/Main/Results/ChartCommon.ts
