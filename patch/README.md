@@ -79,6 +79,8 @@ Adds spinboxes to select min and max values for x and y axes.
 		trajectories/src_algorithms_results.ts.orig
 	cp ../../src/algorithms/model.ts \
 		trajectories/src_algorithms_model.ts.orig
+	cp ../../src/algorithms/run.ts \
+		trajectories/src_algorithms_run.ts.orig
 	cp ../../src/algorithms/types/Result.types.ts \
 		trajectories/src_algorithms_types_Result.types.ts.orig
 	cp ../../src/components/Main/Results/ChartCommon.ts \
@@ -93,6 +95,8 @@ Adds spinboxes to select min and max values for x and y axes.
 		../../src/algorithms/results.ts
 	cp trajectories/src_algorithms_model.ts \
 		../../src/algorithms/model.ts
+	cp trajectories/src_algorithms_run.ts \
+		../../src/algorithms/run.ts
 	cp trajectories/src_algorithms_types_Result.types.ts \
 		../../src/algorithms/types/Result.types.ts 
 	cp trajectories/src_components_Main_Results_ChartCommon.ts \
