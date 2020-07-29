@@ -31,6 +31,8 @@ r2cFile = options.infile
 r2pFile = options.pop_by_age
 pdir = "params/"
 parserTemplateFile = "ParserTemplate.py"
+if options.key == "tsa":
+	parserTemplateFile = "ParserTemplate_TSA.py"
 sourcesTemplateFile = "sources.json.template"
 defaultParamsFile = pdir + "default_params.tsv"
 defaultPopByAgeFile = pdir + "default_popByAge.tsv"

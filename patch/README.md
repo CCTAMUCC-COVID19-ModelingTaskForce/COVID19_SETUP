@@ -83,6 +83,8 @@ Adds spinboxes to select min and max values for x and y axes.
 		trajectories/src_algorithms_types_Result.types.ts.orig
 	cp ../../src/components/Main/Results/ChartCommon.ts \
 		trajectories/src_components_Main_Results_ChartCommon.ts.orig
+	cp ../../src/components/Main/Results/DeterministicLinePlot.tsx \
+		plotControls/src_components_Main_Results_DeterministicLinePlot.tsx.orig
 
 	# Replace with patches
 	cp trajectories/src_algorithms_preparePlotData.ts \
@@ -95,3 +97,6 @@ Adds spinboxes to select min and max values for x and y axes.
 		../../src/algorithms/types/Result.types.ts 
 	cp trajectories/src_components_Main_Results_ChartCommon.ts \
 		../../src/components/Main/Results/ChartCommon.ts
+	cp plotControls/src_components_Main_Results_DeterministicLinePlot.tsx \
+		../../src/components/Main/Results/DeterministicLinePlot.tsx
+

@@ -32,6 +32,7 @@ export const DATA_POINTS = {
   ObservedHospitalized: 'currentHospitalized',
   ObservedICU: 'ICU',
   ObservedNewCases: 'newCases',
+  ObservedNewDailyCases: 'newDailyCases',
   ObservedWeeklyDeaths: 'weeklyDeaths',
 }
 
@@ -52,6 +53,7 @@ export const defaultEnabledPlots = [
   'currentHospitalized',
   'ICU',
   'newCases',
+  'newDailyCases',
   'weeklyDeaths',
 ]
 
@@ -69,6 +71,7 @@ export const colors = {
   [DATA_POINTS.WeeklyNewInfected]: '#55E89F',
   [DATA_POINTS.CumulativeCases]: '#aaaaaa',
   [DATA_POINTS.NewCases]: '#e89f55',
+  [DATA_POINTS.NewDailyCases]: '#246957',
   [DATA_POINTS.HospitalBeds]: '#bbbbbb',
   [DATA_POINTS.ICUbeds]: '#cccccc',
 }
@@ -83,7 +86,7 @@ export const linesToPlot: LineProps[] = [
   { 
     key: DATA_POINTS.DailyNewInfected, 
     color: colors.dailyNewInfected, 
-    name: "Daily new infected * 7/5.6", 
+    name: "Daily new infected / 5.6", 
     legendType: 'line' 
   },
   { 
@@ -182,6 +185,7 @@ export function observationsToPlot(): LineProps[] {
   return [
     { key: DATA_POINTS.ObservedCases, color: colors.cumulativeCases, name: 'Cumulative cases (data)' },
     { key: DATA_POINTS.ObservedNewCases, color: colors.newCases, name: `Weekly cases (data)` },
+    { key: DATA_POINTS.ObservedNewDailyCases, color: "#246957", name: `Daily cases (data)` },
     { key: DATA_POINTS.ObservedHospitalized, color: colors.severe, name: 'Patients in hospital (data)' },
     { key: DATA_POINTS.ObservedICU, color: colors.critical, name: 'Patients in ICU (data)' },
     { key: DATA_POINTS.ObservedDeaths, color: colors.fatality, name: 'Cumulative deaths (data)' },

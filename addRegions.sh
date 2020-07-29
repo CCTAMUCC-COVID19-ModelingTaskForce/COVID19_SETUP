@@ -88,7 +88,43 @@ then
 	mkdir out
 
 	# Pull data from web
-	# Cases
+
+	# Hospitalizations - TSA
+	wget --no-check-certificate \
+		https://dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx -O out/texas_hosps_tsa.xlsx
+	ssconvert -S out/texas_hosps_tsa.xlsx out/texas_hosps_tsa.temp.csv
+	mv out/texas_hosps_tsa.temp.csv.0 out/texas_hosps_tsa_total.temp.csv
+	mv out/texas_hosps_tsa.temp.csv.1 out/texas_hosps_tsa_severe.temp.csv
+	mv out/texas_hosps_tsa.temp.csv.2 out/texas_hosps_tsa_critical.temp.csv
+
+	sed -i -e 's/\.//' out/texas_hosps_tsa_severe.temp.csv
+	grep "^[A-Z]," out/texas_hosps_tsa_severe.temp.csv > \
+		out/texas_hosps_tsa_severe.temp.csv.rows
+	grep "TSA ID" out/texas_hosps_tsa_severe.temp.csv | \
+		sed -e 's/"//g' -e 's/ /_/g' -e 's/2020-/severe/g' > \
+		out/texas_hosps_tsa_severe.temp.csv.header
+	grep "^Total," out/texas_hosps_tsa_severe.temp.csv | sed -e s/^Total/TEXAS/ > \
+		out/texas_hosps_tsa_severe.temp.csv.total
+	cat out/texas_hosps_tsa_severe.temp.csv.header      \
+		out/texas_hosps_tsa_severe.temp.csv.rows    \
+		out/texas_hosps_tsa_severe.temp.csv.total > \
+		out/texas_hosps_tsa_severe.csv
+
+
+	sed -i -e 's/\.//' out/texas_hosps_tsa_critical.temp.csv
+	grep "^[A-Z]," out/texas_hosps_tsa_critical.temp.csv > \
+		out/texas_hosps_tsa_critical.temp.csv.rows
+	grep "TSA ID" out/texas_hosps_tsa_critical.temp.csv | \
+		sed -e 's/"//g' -e 's/ /_/g' -e 's/2020-/critical/g' > \
+		out/texas_hosps_tsa_critical.temp.csv.header
+        grep "^Total," out/texas_hosps_tsa_critical.temp.csv | sed -e s/^Total/TEXAS/ > \
+		out/texas_hosps_tsa_critical.temp.csv.total
+	cat out/texas_hosps_tsa_critical.temp.csv.header      \
+		out/texas_hosps_tsa_critical.temp.csv.rows    \
+		out/texas_hosps_tsa_critical.temp.csv.total > \
+		out/texas_hosps_tsa_critical.csv
+
+	# Cases - county
 	wget --no-check-certificate \
 	       	https://dshs.texas.gov/coronavirus/TexasCOVID19DailyCountyCaseCountData.xlsx -O out/texas_cases.xlsx
 	ssconvert out/texas_cases.xlsx out/texas_cases.temp.csv
@@ -105,7 +141,7 @@ then
 	sed -i 's/Andrews/\nAndrews/' out/texas_cases.csv
 	sed -i -e "s/\r//g" out/texas_cases.csv
 
-	# Fatalities
+	# Fatalities - county
 	wget --no-check-certificate \
 		https://dshs.texas.gov/coronavirus/TexasCOVID19DailyCountyFatalityCountData.xlsx -O out/texas_fatalities.xlsx
 	ssconvert out/texas_fatalities.xlsx out/texas_fatalities.temp.csv

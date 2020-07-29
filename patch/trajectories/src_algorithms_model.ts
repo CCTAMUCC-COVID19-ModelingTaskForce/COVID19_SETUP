@@ -394,7 +394,7 @@ export function collectTotals(trajectory: SimulationTimePoint[], ages: string[],
           tp.current.dailyNewInfected.total = (
             (P.populationServed - trajectory[prevDayTen].current.susceptible.reduce((a, b) => a + b, 0))
           - (P.populationServed - trajectory[prevDayTen - 1].current.susceptible.reduce((a, b) => a + b, 0))
-          ) / 5.6 * 7
+          ) / 5.6
         }
       } else if (k === 'weeklyNewInfected') {
         if (prevDayTen - 7 > 0) {
