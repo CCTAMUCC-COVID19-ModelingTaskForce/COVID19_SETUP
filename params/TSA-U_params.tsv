@@ -1,0 +1,20 @@
+parameter	meanVal	distribution	stdev	upper	lower
+Scenario	TSA-U	na	na	na	na
+Age distribution	TSA-U	na	na	na	na
+Population size	595870	na	na	na	na
+Initial number of cases	12	na	na	na	na
+Imports per day	0.1	na	na	na	na
+Hospital beds available	100000	na	na	na	na
+ICU beds available	100000	na	na	na	na
+Confirmed cases	TSA-U	na	na	na	na
+Simulation start date	3/8/2020	na	na	na	na
+Simulation end date	1/1/2021	na	na	na	na
+Number of Runs	1000	na	na	na	na
+Ro	4	even	na	4	4
+Latency	4	normal	0.5	4	4
+Infectious period	3.5	normal	0.5	3.5	3.5
+Seasonal forcing	0	na	na	na	na
+Seasonal peak	January	na	na	na	na
+Days in hospital	6	normal	0.5	na	na
+Days in icu	8	normal	0.5	na	na
+Severity of ICU overflow	1	na	na	na	na
