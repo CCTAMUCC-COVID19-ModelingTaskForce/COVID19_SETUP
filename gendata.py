@@ -159,6 +159,7 @@ for region in regions:
 			},			
 			"mitigation" : { "mitigationIntervals" : [] },
 			"population" : {
+                                "seroprevalence": 0.0,
 				"ageDistributionName" : region,
 				"caseCountsName" : region,
 				"hospitalBeds" : int(params.loc[params["parameter"] == "Hospital beds available", "meanVal"].item()),
@@ -210,7 +211,7 @@ for region in regions:
 		"data" : [],
 	}
 	severe["data"] = [{"ageGroup" : ageclass, "confirmed" : confirmed, "critical" : critical, 
-					"fatal" : fatal, "isolated" : isolated, "severe" : severe} \
+            "fatal" : fatal, "isolated" : isolated, "severe" : severe, "palliative" : 0} \
 		for ageclass, confirmed, critical, fatal, isolated, severe in \
 		zip(ageGroups, severity["Confirmed"], severity["Critical"], 
 		severity["Fatal"], severity["Isolated"], severity["Severe"])]
